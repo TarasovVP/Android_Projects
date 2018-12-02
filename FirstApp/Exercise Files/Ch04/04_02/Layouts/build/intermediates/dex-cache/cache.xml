@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_721d330e38b9a3a625cdc408d93c77fcc3516da1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_e20990bf3d45586ae6cbd2d0667fd0c574b7d092.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_66ab059b4dba7815f501cfe032284732ddf6aa8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_942116e9d311b0b52ec04eb045d763bc14f7a0e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_eeb3684077aa8bc03fbe22388ad219f15542d1a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_f9372c5fadfd4469324c5b6191a5cdef9f89e08c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_2111b8ac15437eba1aa1e8515f34ff220906b991.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_3d0dca1857d723c5c66f37ccd432331c341d3e11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_ab1343dbc4ffa696639328475ed847fe461a554a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Тарасовы\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\gson-2.4_9c1aad8ad165ff7e6c124e6b9d630b6c4be7568e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_8be406a091678cf0fbb094a43cd23552eb70abe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_58ab1b4f9d6dd8abb9a5a29e179347800f31e38a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_875bfc9d2292ec82a7c57e1627ca71ae8f304a2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_9090570f873cc019859c5ad85b6b5872df1961ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_33c200ca6813546f794ed97037c6facef1febbf9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_a1211cb6accc75221ed3b929d284017ee548bb09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_998a49af7b82cfe5e742d664b119e86e7f25eaf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\IT\Java\Android_Projects\FirstApp\Exercise Files\Ch04\04_02\Layouts\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_85d0e6f0fa0a698bb6e4ba9f7a09af2ac0bd08b0.jar" />
+    </item>
+
+</items>

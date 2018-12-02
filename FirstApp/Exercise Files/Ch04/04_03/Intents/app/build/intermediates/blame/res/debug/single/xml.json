@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "D:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_03\\Intents\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    }
+]

@@ -1,0 +1,4 @@
+#Tue Oct 23 23:16:49 EEST 2018
+base.0=D\:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_02\\Layouts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\IT\\Java\\Android_Projects\\FirstApp\\Exercise Files\\Ch04\\04_02\\Layouts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

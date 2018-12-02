@@ -1,0 +1,1 @@
+include ':app', ':firstproject', ':basicviews', ':constraintlayoutintro', ':layoutfiles', ':layouts', ':layoutprop', ':viewbyid', ':onclickbuttons', ':listener', ':activitylistener10', ':p0111_resvalues', ':p0121_logandmess', ':p0131_menusimple', ':p0141_menuadv'

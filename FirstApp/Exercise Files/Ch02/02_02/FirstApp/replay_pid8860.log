@@ -1,0 +1,1293 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 435 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 7426909 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2305 1 69041 0 64
+ciMethod java/util/Map containsValue (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map clear ()V 0 0 1 0 -1
+ciMethod java/util/Map entrySet ()Ljava/util/Set; 0 0 1 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 889 1 184694 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/Object;)Ljava/lang/StringBuilder; 777 1 7272 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1961 1 320447 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 1001 1 177310 0 -1
+ciMethod java/lang/Integer highestOneBit (I)I 17865 1 2233 0 96
+ciMethod java/lang/Integer rotateLeft (II)I 7097 1 116221 0 0
+ciMethod java/util/Collection iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/Collection toArray ()[Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List remove (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List get (I)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List set (ILjava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/AbstractCollection <init> ()V 745 1 1603829 0 32
+ciMethod java/util/ArrayList calculateCapacity ([Ljava/lang/Object;I)I 745 1 87476 0 64
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 745 1 87460 0 544
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 745 1 87475 0 544
+ciMethod java/util/ArrayList grow (I)V 113 1 6342 0 512
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList size ()I 1353 1 169 0 0
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 2033 1 39495 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2033 1 18193 0 128
+ciMethod java/util/ArrayList set (ILjava/lang/Object;)Ljava/lang/Object; 3073 1 21187 0 0
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 745 1 82088 0 736
+ciMethod java/util/ArrayList rangeCheck (I)V 2033 1 39768 0 64
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2065 1 56271 0 160
+ciMethod java/util/ArrayList access$000 (Ljava/util/ArrayList;)I 1145 1 143 0 0
+ciMethod java/util/Collections unmodifiableSet (Ljava/util/Set;)Ljava/util/Set; 2049 1 14947 0 0
+ciMethod java/util/Set iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/Set add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Set remove (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Set clear ()V 0 0 1 0 -1
+ciMethod java/util/AbstractSet <init> ()V 81 1 585313 0 32
+ciMethod java/util/Collections$UnmodifiableCollection <init> (Ljava/util/Collection;)V 2049 1 17586 0 0
+ciMethod java/util/Collections$UnmodifiableCollection iterator ()Ljava/util/Iterator; 2609 1 16617 0 0
+ciMethod java/util/HashMap clear ()V 1185 16385 1567 0 224
+ciMethod java/util/HashMap entrySet ()Ljava/util/Set; 33 1 73124 0 0
+ciMethod java/util/Map$Entry getKey ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map$Entry getValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map$Entry setValue (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/HashMap$Node getKey ()Ljava/lang/Object; 1865 1 233 0 0
+ciMethod java/util/HashMap$Node getValue ()Ljava/lang/Object; 1025 1 128 0 0
+ciMethod java/util/HashMap$Node setValue (Ljava/lang/Object;)Ljava/lang/Object; 2297 1 1855 0 0
+ciMethod java/lang/Math max (II)I 505 1 144849 0 -1
+ciMethod java/util/Arrays rangeCheck (III)V 32809 1 13361 0 128
+ciMethod java/util/Arrays fill ([Ljava/lang/Object;IILjava/lang/Object;)V 2057 697 14846 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2049 1 28452 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2697 1 10718 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/LinkedHashMap clear ()V 5265 1 658 0 0
+ciMethodData java/lang/Object <init> ()V 2 7426958 orig 264 88 115 255 112 0 0 0 0 128 4 131 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 105 140 138 3 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashSet <init> ()V 17 1 160514 0 -1
+ciMethod java/util/HashSet clear ()V 2065 1 13809 0 0
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 82099 orig 264 88 115 255 112 0 0 0 0 32 5 144 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93 0 0 0 177 2 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x14056 0x1a0104 0x0 0x20a37330 0x3b 0x2263ea0 0xe3 oops 2 4 java/io/FilePermission 6 java/io/File
+ciMethodData java/util/ArrayList ensureCapacityInternal (I)V 2 87475 orig 264 88 115 255 112 0 0 0 0 152 250 143 21 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93 0 0 0 177 170 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 4 0x60002 0x15556 0x90002 0x15556 oops 0
+ciMethodData java/util/ArrayList calculateCapacity ([Ljava/lang/Object;I)I 2 87481 orig 264 88 115 255 112 0 0 0 0 248 249 143 21 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93 0 0 0 225 170 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0x11553 0x30 0x4009 0xa0002 0x4009 oops 0
+ciMethodData java/util/ArrayList ensureExplicitCapacity (I)V 2 87492 orig 264 88 115 255 112 0 0 0 0 72 251 143 21 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93 0 0 0 57 171 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 17 0 0 0 0 0 data 6 0x110007 0x10fc5 0x30 0x45a1 0x160002 0x45a1 oops 0
+ciMethodData java/util/ArrayList grow (I)V 2 6342 orig 264 88 115 255 112 0 0 0 0 16 252 143 21 0 0 0 0 176 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 0 0 0 193 197 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 96 0 0 0 255 255 255 255 7 0 15 0 0 0 0 0 data 12 0xf0007 0x15f 0x20 0x1759 0x180007 0x18b8 0x30 0x0 0x1c0002 0x0 0x260002 0x18b8 oops 0
+ciMethodData java/util/ArrayList get (I)Ljava/lang/Object; 2 18193 orig 264 88 115 255 112 0 0 0 0 200 3 144 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254 0 0 0 153 48 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 8 0x20002 0x4613 0x70005 0x0 0x1ec0e3e0 0x4613 0x0 0x0 oops 1 4 java/util/ArrayList
+ciMethodData java/util/ArrayList rangeCheck (I)V 2 39768 orig 264 88 115 255 112 0 0 0 0 168 12 144 21 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254 0 0 0 209 210 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 64 0 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 8 0x50007 0x9a5a 0x40 0x0 0xe0002 0x0 0x110002 0x0 oops 0
+ciMethodData java/util/ArrayList elementData (I)Ljava/lang/Object; 2 39495 orig 264 88 115 255 112 0 0 0 0 40 3 144 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254 0 0 0 73 202 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/AssertionError <init> (Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 2065 1 60909 0 96
+ciMethod java/util/ArrayList$Itr hasNext ()Z 2145 1 7750 0 64
+ciMethod java/util/ArrayList$Itr next ()Ljava/lang/Object; 2385 1 6802 0 224
+ciMethod java/util/ArrayList$Itr checkForComodification ()V 2401 1 7232 0 0
+ciMethodData java/util/AbstractSet <init> ()V 2 585313 orig 264 88 115 255 112 0 0 0 0 216 166 144 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 0 185 114 71 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x8ee5b oops 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 1603847 orig 264 88 115 255 112 0 0 0 0 224 115 143 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93 0 0 0 81 197 195 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1878b2 oops 0
+ciMethod java/util/Collections$UnmodifiableCollection$1 <init> (Ljava/util/Collections$UnmodifiableCollection;)V 2609 1 16615 0 0
+ciMethod java/util/Collections$UnmodifiableCollection$1 hasNext ()Z 4097 1 7680 0 64
+ciMethodData java/util/ArrayList$Itr hasNext ()Z 2 7750 orig 264 88 115 255 112 0 0 0 0 48 96 173 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 1 0 0 209 233 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 9 0x80002 0x1d3a 0xb0007 0x133 0x38 0x1c07 0xf0003 0x1c07 0x18 oops 0
+ciMethodData java/util/ArrayList$Itr next ()Ljava/lang/Object; 2 6802 orig 264 88 115 255 112 0 0 0 0 16 97 173 21 0 0 0 0 232 1 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 1 0 0 65 203 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 160 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 20 0x10005 0x5 0x1ec0e490 0x1963 0x0 0x0 0xe0002 0x1968 0x110007 0x1968 0x30 0x0 0x180002 0x0 0x270007 0x1968 0x30 0x0 0x2e0002 0x0 oops 1 2 java/util/ArrayList$Itr
+ciMethodData java/util/ArrayList$Itr checkForComodification ()V 2 7232 orig 264 88 115 255 112 0 0 0 0 160 99 173 21 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 1 0 0 161 216 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 11 0 0 0 0 0 data 6 0xb0007 0x1b14 0x30 0x0 0x120002 0x0 oops 0
+ciMethod java/util/LinkedList linkLast (Ljava/lang/Object;)V 2049 1 8552 0 256
+ciMethod java/util/LinkedList unlink (Ljava/util/LinkedList$Node;)Ljava/lang/Object; 2049 1 5377 0 160
+ciMethod java/util/LinkedList add (Ljava/lang/Object;)Z 2049 1 210655 0 256
+ciMethod java/util/LinkedList remove (Ljava/lang/Object;)Z 2049 3129 30706 0 0
+ciMethod java/util/LinkedList clear ()V 2081 305 42618 0 0
+ciMethod java/util/LinkedList toArray ()[Ljava/lang/Object; 3073 4897 5519 0 352
+ciMethod java/util/LinkedList$Node <init> (Ljava/util/LinkedList$Node;Ljava/lang/Object;Ljava/util/LinkedList$Node;)V 2137 1 54910 0 64
+ciMethod java/util/HashMap$HashIterator <init> (Ljava/util/HashMap;)V 2081 921 16793 0 512
+ciMethod java/util/HashMap$HashIterator hasNext ()Z 4097 1 6505 0 64
+ciMethod java/util/HashMap$HashIterator nextNode ()Ljava/util/HashMap$Node; 2049 3041 7425 0 448
+ciMethod java/util/HashMap$EntrySet <init> (Ljava/util/HashMap;)V 33 1 44327 0 0
+ciMethod java/util/HashMap$EntrySet iterator ()Ljava/util/Iterator; 16417 1 69769 0 0
+ciMethod java/util/HashMap$EntryIterator <init> (Ljava/util/HashMap;)V 2041 1 67973 0 0
+ciMethod java/util/HashMap$EntryIterator next ()Ljava/util/Map$Entry; 2041 1 5385 0 0
+ciMethod java/util/HashMap$EntryIterator next ()Ljava/lang/Object; 2049 1 5385 0 448
+ciMethodData java/lang/Object equals (Ljava/lang/Object;)Z 2 69041 orig 264 88 115 255 112 0 0 0 0 232 6 131 21 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 1 0 0 137 100 8 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 7 0x20007 0x47eb 0x38 0xc4b5 0x60003 0xc4b6 0x18 oops 0
+ciMethodData java/util/ArrayList iterator ()Ljava/util/Iterator; 2 56271 orig 264 88 115 255 112 0 0 0 0 224 20 144 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 105 214 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0xdacd oops 0
+ciMethodData java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 2 60910 orig 264 88 115 255 112 0 0 0 0 136 95 173 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 97 103 7 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0xecec oops 0
+ciMethod java/util/NoSuchElementException <init> ()V 0 0 1 0 -1
+ciMethodData java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2 28457 orig 264 88 115 255 112 0 0 0 0 64 145 148 21 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 73 113 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 112 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 14 0x30005 0x2456 0x20997f60 0x49bf 0x209acf40 0x15 0x60002 0x6e28 0x90004 0x0 0x0 0x0 0x0 0x0 oops 2 2 [Ljava/lang/Object; 4 [Ljava/lang/Class;
+ciMethodData java/util/Collections$UnmodifiableCollection$1 hasNext ()Z 2 7680 orig 264 88 115 255 112 0 0 0 0 240 220 173 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x41a 0x1ec0e490 0x113f 0x1b77c8f0 0x6a7 oops 2 2 java/util/ArrayList$Itr 4 java/util/AbstractList$Itr
+ciMethodData java/util/Collections$UnmodifiableCollection iterator ()Ljava/util/Iterator; 2 16617 orig 264 88 115 255 112 0 0 0 0 216 14 145 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 1 0 0 25 253 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x3fa1 oops 0
+ciMethodData java/util/Collections$UnmodifiableCollection$1 <init> (Ljava/util/Collections$UnmodifiableCollection;)V 2 16615 orig 264 88 115 255 112 0 0 0 0 88 220 173 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 1 0 0 9 253 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 8 0x60002 0x3fa1 0x110005 0x3ad0 0x1ec0e3e0 0xe5 0x1b77bad0 0x3ec oops 2 4 java/util/ArrayList 6 java/util/Arrays$ArrayList
+ciMethodData java/util/HashMap entrySet ()Ljava/util/Set; 2 73128 orig 264 88 115 255 112 0 0 0 0 136 156 145 21 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 25 237 8 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 9 0x60007 0x707f 0x48 0xad25 0xf0002 0xad25 0x160003 0xad25 0x18 oops 0
+ciMethodData java/util/HashMap$EntrySet <init> (Ljava/util/HashMap;)V 2 44329 orig 264 88 115 255 112 0 0 0 0 16 67 186 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 41 105 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0xad25 oops 0
+ciMethodData java/util/LinkedList$Node <init> (Ljava/util/LinkedList$Node;Ljava/lang/Object;Ljava/util/LinkedList$Node;)V 2 54910 orig 264 88 115 255 112 0 0 0 0 0 209 175 21 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 0 0 153 171 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xd573 oops 0
+ciMethodData java/util/HashMap clear ()V 2 19404 orig 264 88 115 255 112 0 0 0 0 136 153 145 21 0 0 0 0 240 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 89 44 0 0 97 30 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 168 0 0 0 255 255 255 255 7 0 16 0 0 0 0 0 data 21 0x100007 0x33d 0xa8 0x24e 0x170007 0x16 0x88 0x238 0x240007 0x238 0x68 0x43cc 0x2a0104 0x0 0x0 0x0 0x0 0x0 0x2e0003 0x43cc 0xffffffffffffffb0 oops 0
+ciMethodData java/util/HashMap$HashIterator nextNode ()Ljava/util/HashMap$Node; 2 14898 orig 264 88 115 255 112 0 0 0 0 248 173 184 21 0 0 0 0 8 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 124 1 0 0 9 224 0 0 177 197 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 224 0 0 0 255 255 255 255 7 0 16 0 0 0 0 0 data 28 0x100007 0x1c01 0x30 0x0 0x170002 0x0 0x1c0007 0x1c01 0x30 0x0 0x230002 0x0 0x350007 0x55c 0x80 0x16a5 0x410007 0x0 0x60 0x16a5 0x4a0007 0x599 0x40 0x38b6 0x5f0007 0x27aa 0xffffffffffffffe0 0x110c oops 0
+ciMethod java/util/Collections$UnmodifiableSet <init> (Ljava/util/Set;)V 2081 1 14959 0 0
+ciMethodData java/util/HashMap$HashIterator hasNext ()Z 2 6505 orig 264 88 115 255 112 0 0 0 0 248 172 184 21 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 73 187 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 7 0x40007 0x4f6 0x38 0x1273 0x80003 0x1273 0x18 oops 0
+ciMethodData java/util/HashMap$EntryIterator next ()Ljava/lang/Object; 2 5385 orig 264 88 115 255 112 0 0 0 0 168 87 186 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 73 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x1ec0e750 0x1409 0x0 0x0 oops 1 2 java/util/HashMap$EntryIterator
+ciMethodData java/util/HashMap$EntryIterator next ()Ljava/util/Map$Entry; 2 5385 orig 264 88 115 255 112 0 0 0 0 16 87 186 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0 0 81 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x1 0x1ec0e750 0x1409 0x0 0x0 oops 1 2 java/util/HashMap$EntryIterator
+ciMethodData java/util/HashSet clear ()V 2 13809 orig 264 88 115 255 112 0 0 0 0 40 199 159 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 121 167 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1ec0e5f0 0x330f 0x177a5db0 0x1e0 oops 2 2 java/util/HashMap 4 java/util/LinkedHashMap
+ciMethodData java/util/LinkedList add (Ljava/lang/Object;)Z 2 210657 orig 264 88 115 255 112 0 0 0 0 128 157 175 21 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 9 175 25 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x18325970 0x335e2 0x0 0x0 oops 1 2 java/util/LinkedList
+ciMethodData java/util/LinkedList linkLast (Ljava/lang/Object;)V 2 8552 orig 264 88 115 255 112 0 0 0 0 64 148 175 21 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 65 3 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 12 0 0 0 0 0 data 9 0xc0002 0x2068 0x160007 0x1339 0x38 0xd2f 0x1e0003 0xd2f 0x18 oops 0
+ciMethodData java/util/LinkedList unlink (Ljava/util/LinkedList$Node;)Ljava/lang/Object; 2 5377 orig 264 88 115 255 112 0 0 0 0 208 151 175 21 0 0 0 0 160 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 9 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 112 0 0 0 255 255 255 255 7 0 18 0 0 0 0 0 data 14 0x120007 0x49c 0x38 0xf65 0x1a0003 0xf65 0x18 0x290007 0x792 0x38 0xc6f 0x320003 0xc6f 0x18 oops 0
+ciMethodData java/util/Collections$UnmodifiableCollection <init> (Ljava/util/Collection;)V 2 17586 orig 264 88 115 255 112 0 0 0 0 168 10 145 21 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 145 29 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x43b2 0x50007 0x43b1 0x30 0x0 0xc0002 0x0 oops 0
+ciMethodData java/lang/Integer rotateLeft (II)I 2 116221 orig 264 88 115 255 112 0 0 0 0 0 102 141 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0 0 49 20 14 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/HashMap$HashIterator <init> (Ljava/util/HashMap;)V 2 31206 orig 264 88 115 255 112 0 0 0 0 88 172 184 21 0 0 0 0 184 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 169 4 2 0 153 203 3 0 181 33 0 0 151 73 0 0 2 0 0 0 1 0 13 0 2 0 0 0 144 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 18 0x60002 0x4095 0x260007 0x1883 0x80 0x2814 0x2de007 0x35 0x60 0x27e1 0x360007 0x0 0x40 0x79b3 0x4b0007 0x51d2 0xffffffffffffffe0 0x27e1 oops 0
+ciMethodData java/lang/Integer highestOneBit (I)I 1 2233 orig 264 88 115 255 112 0 0 0 0 56 98 141 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/LinkedList remove (Ljava/lang/Object;)Z 2 30706 orig 264 88 115 255 112 0 0 0 0 112 158 175 21 0 0 0 0 200 2 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135 1 0 0 145 183 3 0 57 97 3 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 16 0 2 0 0 0 120 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 47 0x10007 0x76f2 0xc0 0x0 0xa0007 0x0 0x88 0x0 0x110007 0x0 0x50 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x210003 0x0 0xffffffffffffff90 0x240003 0x0 0xd0 0x2d0007 0x1a3 0xb8 0xe16d 0x350005 0xc1c8 0x20a04970 0x1f6a 0x20a04a20 0x3b 0x380007 0x6c1e 0x50 0x754f 0x3d0005 0x0 0x18325970 0x754f 0x0 0x0 0x480003 0x6c1e 0xffffffffffffff60 oops 3 30 org/gradle/model/internal/registry/RuleBinder 32 org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/builder/EdgeState 40 java/util/LinkedList
+ciMethodData java/util/HashMap$EntrySet iterator ()Ljava/util/Iterator; 2 69769 orig 264 88 115 255 112 0 0 0 0 224 68 186 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 41 68 8 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 2 0x80002 0x10885 oops 0
+ciMethodData java/util/HashMap$EntryIterator <init> (Ljava/util/HashMap;)V 2 67973 orig 264 88 115 255 112 0 0 0 0 120 86 186 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0 0 49 68 8 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 2 0x70002 0x10886 oops 0
+ciMethodData java/util/Arrays rangeCheck (III)V 2 13361 orig 264 88 115 255 112 0 0 0 0 184 64 148 21 0 0 0 0 24 3 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 97 33 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 192 1 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 56 0x20007 0x242c 0x160 0x0 0xd0002 0x0 0x120005 0x0 0x0 0x0 0x0 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x1f0005 0x0 0x0 0x0 0x0 0x0 0x240005 0x0 0x0 0x0 0x0 0x0 0x270005 0x0 0x0 0x0 0x0 0x0 0x2a0002 0x0 0x2f0007 0x242c 0x30 0x0 0x370002 0x0 0x3d0007 0x242c 0x30 0x0 0x450002 0x0 oops 0
+ciMethodData java/util/Arrays fill ([Ljava/lang/Object;IILjava/lang/Object;)V 2 14846 orig 264 88 115 255 112 0 0 0 0 160 144 148 21 0 0 0 0 216 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 233 199 1 0 217 41 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 120 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 15 0x40002 0x38fd 0xd0007 0x38fd 0x68 0x53b 0x140104 0x0 0x0 0x0 0x0 0x0 0x180003 0x53b 0xffffffffffffffb0 oops 0
+ciMethodData java/util/Collections$UnmodifiableSet <init> (Ljava/util/Set;)V 2 14959 orig 264 88 115 255 112 0 0 0 0 120 195 236 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 89 203 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x396b oops 0
+ciMethodData java/util/Collections unmodifiableSet (Ljava/util/Set;)Ljava/util/Set; 2 14947 orig 264 88 115 255 112 0 0 0 0 240 89 144 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 25 203 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x3963 oops 0
+ciMethodData java/util/LinkedList clear ()V 2 42618 orig 264 88 115 255 112 0 0 0 0 80 161 175 21 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 177 43 5 0 49 165 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 7 0x60007 0xa676 0x38 0x34a6 0x1f0003 0x34a6 0xffffffffffffffe0 oops 0
+ciMethodData java/util/LinkedList toArray ()[Ljava/lang/Object; 2 5519 orig 264 88 115 255 112 0 0 0 0 16 183 175 21 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 2 0 0 121 160 0 0 57 146 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 0 16 0 0 0 0 0 data 13 0x100007 0x140f 0x68 0x1247 0x1c0004 0x0 0x2099b8f0 0x1f 0x2099b9a0 0x2 0x220003 0x1247 0xffffffffffffffb0 oops 2 6 org/gradle/api/internal/tasks/DefaultTaskInputs$TaskInputUnionFileCollection 8 com/android/build/gradle/internal/tasks/AppPreBuildTask_Decorated
+ciMethod com/android/tools/r8/ir/code/Value getLocalInfo ()Lcom/android/tools/r8/graph/DebugLocalInfo; 3353 1 179726 0 0
+ciMethod com/android/tools/r8/ir/code/Value hasLocalInfo ()Z 1337 1 49403 0 0
+ciMethod com/android/tools/r8/ir/code/Value uniqueUsers ()Ljava/util/Set; 3089 1 121322 0 3456
+ciMethod com/android/tools/r8/ir/code/Value uniquePhiUsers ()Ljava/util/Set; 3105 1 89678 0 0
+ciMethod com/android/tools/r8/ir/code/Value debugPhiUsers ()Ljava/util/Set; 1329 1 12249 0 0
+ciMethod com/android/tools/r8/ir/code/Value addUser (Lcom/android/tools/r8/ir/code/Instruction;)V 2689 1 52603 0 0
+ciMethod com/android/tools/r8/ir/code/Value clearUsers ()V 2793 1 19446 0 0
+ciMethod com/android/tools/r8/ir/code/Value addPhiUser (Lcom/android/tools/r8/ir/code/Phi;)V 3073 1 34007 0 0
+ciMethod com/android/tools/r8/ir/code/Value removePhiUser (Lcom/android/tools/r8/ir/code/Phi;)V 2889 1 8487 0 0
+ciMethod com/android/tools/r8/ir/code/Value addDebugUser (Lcom/android/tools/r8/ir/code/Instruction;)V 2737 1 17271 0 -1
+ciMethod com/android/tools/r8/ir/code/Value replaceUsers (Lcom/android/tools/r8/ir/code/Value;)V 2049 1689 14903 0 0
+ciMethod com/android/tools/r8/ir/code/Value replaceUserInDebugData (Ljava/util/Map$Entry;Lcom/android/tools/r8/ir/code/Value;)V 32689 1 4312 0 0
+ciMethod com/android/tools/r8/ir/code/Value isPhi ()Z 1025 1 128 0 0
+ciMethod com/android/tools/r8/ir/code/Value asPhi ()Lcom/android/tools/r8/ir/code/Phi; 0 0 1 0 -1
+ciMethod com/android/tools/r8/ir/code/Phi isPhi ()Z 1049 1 131 0 0
+ciMethod com/android/tools/r8/ir/code/Phi asPhi ()Lcom/android/tools/r8/ir/code/Phi; 4097 1 1667 0 0
+ciMethod com/android/tools/r8/ir/code/Phi replaceOperand (Lcom/android/tools/r8/ir/code/Value;Lcom/android/tools/r8/ir/code/Value;)V 13921 53401 1852 0 0
+ciMethod com/android/tools/r8/ir/code/Phi replaceDebugValue (Lcom/android/tools/r8/ir/code/Value;Lcom/android/tools/r8/ir/code/Value;)V 0 0 1 0 -1
+ciMethod com/android/tools/r8/ir/code/Phi isTrivialPhi ()Z 89 89 25 0 -1
+ciMethod com/android/tools/r8/ir/code/Phi removeTrivialPhi ()V 96393 1773929 15316 0 0
+ciMethod com/android/tools/r8/ir/code/Phi addDefinitionsUser (Ljava/util/Map;)V 465 1 1951 0 0
+ciMethod com/android/tools/r8/ir/code/BasicBlock removePhi (Lcom/android/tools/r8/ir/code/Phi;)V 1193 1 10319 0 0
+ciMethod com/android/tools/r8/ir/code/Value$DebugUse join (Lcom/android/tools/r8/ir/code/Value$DebugUse;Lcom/android/tools/r8/ir/code/Value$DebugUse;)Lcom/android/tools/r8/ir/code/Value$DebugUse; 2049 1 4618 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableCollection <init> ()V 2841 1 59485 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableCollection isPartialView ()Z 0 0 1 0 -1
+ciMethod com/android/tools/r8/com/google/common/collect/UnmodifiableIterator <init> ()V 1793 1 111060 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/UnmodifiableIterator hasNext ()Z 0 0 1 0 -1
+ciMethod com/android/tools/r8/com/google/common/collect/UnmodifiableIterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/android/tools/r8/com/google/common/collect/UnmodifiableListIterator <init> ()V 369 1 1526 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/AbstractIndexedListIterator get (I)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod com/android/tools/r8/com/google/common/collect/AbstractIndexedListIterator <init> (II)V 369 1 1526 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/AbstractIndexedListIterator hasNext ()Z 2057 1 15146 0 64
+ciMethod com/android/tools/r8/com/google/common/collect/AbstractIndexedListIterator next ()Ljava/lang/Object; 3217 1 7748 0 192
+ciMethod com/android/tools/r8/com/google/common/collect/ObjectArrays checkElementNotNull (Ljava/lang/Object;I)Ljava/lang/Object; 1393 1 33752 0 0
+ciMethod com/android/tools/r8/com/google/common/base/Preconditions checkArgument (Z)V 3081 1 10179 0 0
+ciMethod com/android/tools/r8/com/google/common/base/Preconditions checkArgument (ZLjava/lang/Object;)V 0 0 44 0 -1
+ciMethod com/android/tools/r8/com/google/common/base/Preconditions checkNotNull (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 132352 0 64
+ciMethod com/android/tools/r8/com/google/common/base/Preconditions checkPositionIndex (II)I 3073 1 11335 0 0
+ciMethod com/android/tools/r8/com/google/common/base/Preconditions checkPositionIndex (IILjava/lang/String;)I 3073 1 11336 0 96
+ciMethod com/android/tools/r8/com/google/common/base/Preconditions checkPositionIndexes (III)V 3089 1 9787 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/RegularImmutableSet <init> ([Ljava/lang/Object;I[Ljava/lang/Object;I)V 273 1 7092 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableSet of ()Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 2121 1 229223 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableSet of (Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 825 1 29422 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableSet construct (I[Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 3153 1201 90546 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableSet chooseTableSize (I)I 545 441 14469 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableSet copyOf (Ljava/util/Collection;)Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 2513 1 90359 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableSet copyOfEnumSet (Ljava/util/EnumSet;)Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 0 0 1 0 -1
+ciMethod com/android/tools/r8/com/google/common/collect/ImmutableSet <init> ()V 1201 1 38100 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/RegularImmutableSet iterator ()Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 2049 1 10041 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/RegularImmutableSet iterator ()Ljava/util/Iterator; 2057 1 10042 0 224
+ciMethod com/android/tools/r8/com/google/common/collect/SingletonImmutableSet <init> (Ljava/lang/Object;)V 825 1 29422 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/SingletonImmutableSet <init> (Ljava/lang/Object;I)V 0 0 167 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/SingletonImmutableSet iterator ()Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 4097 1 96485 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/SingletonImmutableSet iterator ()Ljava/util/Iterator; 4097 1 96485 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/Hashing smear (I)I 1017 1 27137 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators emptyListIterator ()Lcom/android/tools/r8/com/google/common/collect/UnmodifiableListIterator; 2049 1 9103 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators forArray ([Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 2057 1 10042 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators forArray ([Ljava/lang/Object;III)Lcom/android/tools/r8/com/google/common/collect/UnmodifiableListIterator; 2713 1 9729 0 416
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators singletonIterator (Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 4097 1 109535 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators$9 <init> (Ljava/lang/Object;)V 4097 1 109535 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators$9 hasNext ()Z 2113 1 8456 0 32
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators$9 next ()Ljava/lang/Object; 4097 1 9858 0 96
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr <init> ([Ljava/lang/Object;III)V 369 1 884 0 0
+ciMethod com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr get (I)Ljava/lang/Object; 3233 1 1937 0 0
+ciMethod com/android/tools/r8/ir/code/Instruction addDebugValue (Lcom/android/tools/r8/ir/code/Value;)V 697 1 17271 0 0
+ciMethod com/android/tools/r8/ir/code/Instruction replaceValue (Lcom/android/tools/r8/ir/code/Value;Lcom/android/tools/r8/ir/code/Value;)V 1041 2321 7726 0 0
+ciMethod com/android/tools/r8/ir/code/Instruction replaceDebugValue (Lcom/android/tools/r8/ir/code/Value;Lcom/android/tools/r8/ir/code/Value;)V 2049 1 694 0 0
+ciMethodData java/util/ArrayList set (ILjava/lang/Object;)Ljava/lang/Object; 2 21187 orig 264 88 115 255 112 0 0 0 0 112 4 144 21 0 0 0 0 200 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 25 138 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 112 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 14 0x20002 0x5143 0x70005 0x0 0x1ec0e3e0 0x5143 0x0 0x0 0x110004 0x0 0x1ec0e540 0x28b3 0x1ec0eb70 0x265e oops 3 4 java/util/ArrayList 10 com/android/tools/r8/ir/code/Value 12 com/android/tools/r8/ir/code/BasicBlock
+ciMethodData java/util/HashMap$Node setValue (Ljava/lang/Object;)Ljava/lang/Object; 2 1855 orig 264 88 115 255 112 0 0 0 0 184 215 145 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 31 1 0 0 1 49 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/AbstractIndexedListIterator hasNext ()Z 2 15146 orig 264 88 115 255 112 0 0 0 0 72 131 35 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 73 209 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 7 0x80007 0x141f 0x38 0x260a 0xc0003 0x260a 0x18 oops 0
+ciMethodData com/android/tools/r8/com/google/common/base/Preconditions checkNotNull (Ljava/lang/Object;)Ljava/lang/Object; 2 132368 orig 264 88 115 255 112 0 0 0 0 0 7 36 35 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 129 32 16 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 6 0x10007 0x20410 0x30 0x0 0x80002 0x0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators emptyListIterator ()Lcom/android/tools/r8/com/google/common/collect/UnmodifiableListIterator; 2 9103 orig 264 88 115 255 112 0 0 0 0 0 170 40 35 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 121 20 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/RegularImmutableSet iterator ()Ljava/util/Iterator; 2 10042 orig 264 88 115 255 112 0 0 0 0 112 96 40 35 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 201 49 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0xb 0x1ec0e8b0 0x262e 0x0 0x0 oops 1 2 com/android/tools/r8/com/google/common/collect/RegularImmutableSet
+ciMethodData com/android/tools/r8/com/google/common/collect/RegularImmutableSet iterator ()Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 2 10041 orig 264 88 115 255 112 0 0 0 0 168 91 40 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 201 49 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 2 0x40002 0x2639 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators forArray ([Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 2 10042 orig 264 88 115 255 112 0 0 0 0 232 213 40 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 201 49 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x2639 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators forArray ([Ljava/lang/Object;III)Lcom/android/tools/r8/com/google/common/collect/UnmodifiableListIterator; 2 9729 orig 264 88 115 255 112 0 0 0 0 8 215 40 35 0 0 0 0 8 2 0 0 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 1 0 0 113 37 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 26 0 2 0 0 0 168 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 21 0x10007 0x0 0x38 0x24ad 0x50003 0x24ad 0x18 0x90002 0x24ad 0x160002 0x24ad 0x1b0002 0x24ad 0x200007 0x353 0x30 0x215a 0x230002 0x215a 0x2f0002 0x353 oops 0
+ciMethodData com/android/tools/r8/com/google/common/base/Preconditions checkPositionIndex (IILjava/lang/String;)I 2 11336 orig 264 88 115 255 112 0 0 0 0 88 38 36 35 0 0 0 0 184 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 65 86 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 96 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 12 0x10007 0x0 0x40 0x2ac8 0x60007 0x2ac8 0x40 0x0 0x100002 0x0 0x130002 0x0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/base/Preconditions checkPositionIndex (II)I 2 11335 orig 264 88 115 255 112 0 0 0 0 128 37 36 35 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 57 86 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 2 0x40002 0x2ac7 oops 0
+ciMethodData com/android/tools/r8/com/google/common/base/Preconditions checkPositionIndexes (III)V 2 9787 orig 264 88 115 255 112 0 0 0 0 136 40 36 35 0 0 0 0 216 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 201 37 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 128 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 16 0x10007 0x0 0x60 0x24bd 0x60007 0x0 0x40 0x24bd 0xb0007 0x24bd 0x40 0x0 0x150002 0x0 0x180002 0x0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/base/Preconditions checkArgument (Z)V 2 10179 orig 264 88 115 255 112 0 0 0 0 0 208 35 35 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 17 50 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 6 0x10007 0x2642 0x30 0x0 0x80002 0x0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators$9 hasNext ()Z 2 8456 orig 264 88 115 255 112 0 0 0 0 96 224 40 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 1 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 7 0x40007 0xe55 0x38 0x11ab 0x80003 0x11ab 0x18 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/ImmutableSet of ()Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 2 229711 orig 264 88 115 255 112 0 0 0 0 216 79 37 35 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 0 0 49 2 28 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr <init> ([Ljava/lang/Object;III)V 1 884 orig 264 88 115 255 112 0 0 0 0 56 15 41 35 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 0 0 0 49 26 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 2 0x40002 0x346 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/AbstractIndexedListIterator <init> (II)V 2 1526 orig 264 88 115 255 112 0 0 0 0 152 130 35 35 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 0 0 0 65 46 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x5c8 0x60002 0x5c8 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/UnmodifiableListIterator <init> ()V 2 1526 orig 264 88 115 255 112 0 0 0 0 8 86 35 35 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 0 0 0 65 46 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5c8 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/UnmodifiableIterator <init> ()V 2 111060 orig 264 88 115 255 112 0 0 0 0 72 79 35 35 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 224 0 0 0 161 135 13 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1b0f4 oops 0
+ciMethodData com/android/tools/r8/ir/code/Value getLocalInfo ()Lcom/android/tools/r8/graph/DebugLocalInfo; 2 179726 orig 264 88 115 255 112 0 0 0 0 0 204 240 34 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 163 1 0 0 89 227 21 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 56 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 7 0x40007 0x1adea 0x38 0x10e86 0x80003 0x10e86 0x18 oops 0
+ciMethodData com/android/tools/r8/ir/code/Value hasLocalInfo ()Z 2 49461 orig 264 88 115 255 112 0 0 0 0 192 204 240 34 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 167 0 0 0 113 4 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 104 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 13 0x10005 0x0 0x1ec0e540 0xb539 0x1ec0d750 0xb55 0x40007 0x8b53 0x38 0x353b 0x80003 0x353b 0x18 oops 2 2 com/android/tools/r8/ir/code/Value 4 com/android/tools/r8/ir/code/Phi
+ciMethodData com/android/tools/r8/ir/code/Value uniqueUsers ()Ljava/util/Set; 2 123254 orig 264 88 115 255 112 0 0 0 0 192 218 240 34 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 1 0 0 161 255 14 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0xb15c 0x20 0x12e9b 0x110002 0xb15c oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/ImmutableSet copyOf (Ljava/util/Collection;)Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 2 90482 orig 264 88 115 255 112 0 0 0 0 248 89 37 35 0 0 0 0 80 3 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 1 0 0 193 1 11 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 13 0 2 0 0 0 8 2 0 0 255 255 255 255 4 0 1 0 0 0 0 0 data 65 0x10004 0xfffffffffffe9fc9 0x18325970 0x8f 0x0 0x0 0x40007 0x16037 0x108 0x0 0x80004 0x0 0x0 0x0 0x0 0x0 0xb0007 0x0 0xb8 0x0 0xf0004 0x0 0x0 0x0 0x0 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x170007 0x0 0x20 0x0 0x1c0003 0x0 0xa8 0x200004 0xfffffffffffe9fc8 0x18325970 0x8f 0x0 0x0 0x230007 0x16038 0x60 0x0 0x270004 0x0 0x0 0x0 0x0 0x0 0x2a0002 0x0 0x2f0005 0x85 0x18325970 0x15c29 0x209b0ec0 0x38a 0x380002 0x16038 oops 4 2 java/util/LinkedList 41 java/util/LinkedList 59 java/util/LinkedList 61 com/android/tools/r8/com/google/common/collect/SingletonImmutableList
+ciMethodData com/android/tools/r8/com/google/common/collect/AbstractIndexedListIterator next ()Ljava/lang/Object; 2 7748 orig 264 88 115 255 112 0 0 0 0 32 132 35 35 0 0 0 0 216 1 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 146 1 0 0 145 229 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 144 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 18 0x10005 0x18 0x1ec0ea10 0x1a38 0x20b34cf0 0x262 0x40007 0x1cb2 0x30 0x0 0xb0002 0x0 0x1b0005 0x18 0x1ec0ea10 0x1a38 0x20b34cf0 0x262 oops 4 2 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 4 com/android/tools/r8/com/google/common/collect/ImmutableList$1 14 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 16 com/android/tools/r8/com/google/common/collect/ImmutableList$1
+ciMethodData com/android/tools/r8/ir/code/Phi addDefinitionsUser (Ljava/util/Map;)V 2 1951 orig 264 88 115 255 112 0 0 0 0 200 65 241 34 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 0 0 0 41 59 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x1ec0e3e0 0x765 0x0 0x0 oops 1 2 java/util/ArrayList
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr get (I)Ljava/lang/Object; 2 1937 orig 264 88 115 255 112 0 0 0 0 240 15 41 35 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 1 0 0 233 47 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/android/tools/r8/ir/code/Value uniquePhiUsers ()Ljava/util/Set; 2 89803 orig 264 88 115 255 112 0 0 0 0 144 219 240 34 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 57 234 10 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0x9276 0x20 0xcad1 0x110002 0x9276 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/ImmutableSet construct (I[Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 2 90593 orig 264 88 115 255 112 0 0 0 0 192 87 37 35 0 0 0 0 56 4 0 0 192 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 1 0 0 185 2 11 0 1 246 3 0 0 0 0 0 0 0 0 0 2 0 0 0 3 0 34 0 2 0 0 0 232 2 0 0 255 255 255 255 8 0 1 0 0 0 0 0 data 93 0x10008 0x6 0x1 0x60 0xb 0x40 0x8 0x50 0x1c0002 0xd160 0x250002 0x7287 0x2a0002 0x1c74 0x440007 0x1c74 0x1a0 0x6756 0x4d0002 0x6756 0x540005 0x4de7 0x1e482590 0x184a 0x1e482640 0x125 0x5b0002 0x6756 0x6f0007 0x1bbd 0x98 0x6303 0x7a0004 0x0 0x1e482590 0x184a 0x1e482640 0x125 0x800004 0x0 0x1e482590 0x184a 0x1e482640 0x125 0x880003 0x6303 0x98 0x8f0005 0x1989 0x1e482640 0x56 0x1e4826f0 0x1de 0x920007 0x176a 0x38 0x453 0x950003 0x453 0x30 0x9b0003 0x176a 0xffffffffffffff00 0xa10003 0x6756 0xfffffffffffffe78 0xa90002 0x1c74 0xaf0007 0x1bcd 0x30 0xa7 0xbf0002 0xa7 0xc60002 0x1bcd 0xc90007 0x1b93 0x30 0x3a 0xcf0002 0x3a 0xd70007 0x1b35 0x48 0x5e 0xdd0002 0x5e 0xe00003 0x5e 0x18 0xf10002 0x1b93 oops 8 22 com/android/tools/r8/ir/code/InstanceGet 24 com/android/tools/r8/ir/code/ArrayPut 34 com/android/tools/r8/ir/code/InstanceGet 36 com/android/tools/r8/ir/code/ArrayPut 40 com/android/tools/r8/ir/code/InstanceGet 42 com/android/tools/r8/ir/code/ArrayPut 49 com/android/tools/r8/ir/code/ArrayPut 51 com/android/tools/r8/ir/code/If
+ciMethodData com/android/tools/r8/com/google/common/collect/ImmutableSet of (Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/ImmutableSet; 2 29422 orig 264 88 115 255 112 0 0 0 0 128 80 37 35 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 103 0 0 0 57 148 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x7287 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/SingletonImmutableSet <init> (Ljava/lang/Object;)V 2 29422 orig 264 88 115 255 112 0 0 0 0 16 99 40 35 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 103 0 0 0 57 148 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x7287 0x60002 0x7287 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/ImmutableSet <init> ()V 2 38100 orig 264 88 115 255 112 0 0 0 0 32 94 37 35 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 150 0 0 0 241 161 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x943e oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/ImmutableCollection <init> ()V 2 59485 orig 264 88 115 255 112 0 0 0 0 8 19 35 35 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99 1 0 0 209 55 7 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xe6fa oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/ImmutableSet chooseTableSize (I)I 2 14469 orig 264 88 115 255 112 0 0 0 0 232 88 37 35 0 0 0 0 248 1 0 0 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 0 0 0 9 194 1 0 201 158 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 176 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 22 0x30007 0x0 0x68 0x3841 0x90002 0x3841 0x180007 0x3841 0x38 0x33d9 0x1f0003 0x33d9 0xffffffffffffffe0 0x270007 0x0 0x38 0x0 0x2b0003 0x0 0x18 0x310002 0x0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/ObjectArrays checkElementNotNull (Ljava/lang/Object;I)Ljava/lang/Object; 2 33752 orig 264 88 115 255 112 0 0 0 0 88 182 35 35 0 0 0 0 32 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 0 0 81 25 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 208 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 26 0x10007 0x832a 0xd0 0x0 0xc0002 0x0 0x110005 0x0 0x0 0x0 0x0 0x0 0x150005 0x0 0x0 0x0 0x0 0x0 0x180005 0x0 0x0 0x0 0x0 0x0 0x1b0002 0x0 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Hashing smear (I)I 2 27137 orig 264 88 115 255 112 0 0 0 0 72 135 40 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 0 0 17 76 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 12 0 0 0 0 0 data 2 0xc0002 0x6982 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/SingletonImmutableSet <init> (Ljava/lang/Object;I)V 1 167 orig 264 88 115 255 112 0 0 0 0 216 99 40 35 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57 5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xa7 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/RegularImmutableSet <init> ([Ljava/lang/Object;I[Ljava/lang/Object;I)V 2 7092 orig 264 88 115 255 112 0 0 0 0 168 55 37 35 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34 0 0 0 145 220 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1b92 oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators singletonIterator (Ljava/lang/Object;)Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 2 109535 orig 264 88 115 255 112 0 0 0 0 208 215 40 35 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 249 78 13 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x1a9df oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators$9 <init> (Ljava/lang/Object;)V 2 109535 orig 264 88 115 255 112 0 0 0 0 184 223 40 35 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 249 78 13 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x1a9df oops 0
+ciMethodData com/android/tools/r8/com/google/common/collect/Iterators$9 next ()Ljava/lang/Object; 2 9858 orig 264 88 115 255 112 0 0 0 0 56 225 40 35 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 17 36 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0x2482 0x30 0x0 0xb0002 0x0 oops 0
+ciMethodData com/android/tools/r8/ir/code/Instruction addDebugValue (Lcom/android/tools/r8/ir/code/Value;)V 2 17475 orig 264 88 115 255 112 0 0 0 0 224 39 59 35 0 0 0 0 128 2 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 87 0 0 0 97 31 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 48 1 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 38 0x30007 0x43ec 0x80 0x0 0x70005 0x0 0x0 0x0 0x0 0x0 0xa0007 0x0 0x30 0x0 0x110002 0x0 0x190007 0x2c8a 0x30 0x1762 0x210002 0x1762 0x2c0005 0x0 0x1bd046a0 0x43ec 0x0 0x0 0x310007 0x0 0x50 0x43ec 0x360005 0x0 0x1ec0e540 0x3843 0x1ec0d750 0xba9 oops 3 24 java/util/HashSet 34 com/android/tools/r8/ir/code/Value 36 com/android/tools/r8/ir/code/Phi
+ciMethodData com/android/tools/r8/com/google/common/collect/SingletonImmutableSet iterator ()Ljava/util/Iterator; 2 96485 orig 264 88 115 255 112 0 0 0 0 216 106 40 35 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 183 11 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x8e 0x1ec0e960 0x17657 0x0 0x0 oops 1 2 com/android/tools/r8/com/google/common/collect/SingletonImmutableSet
+ciMethodData com/android/tools/r8/com/google/common/collect/SingletonImmutableSet iterator ()Lcom/android/tools/r8/com/google/common/collect/UnmodifiableIterator; 2 96485 orig 264 88 115 255 112 0 0 0 0 208 101 40 35 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 183 11 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 4 0 0 0 0 0 data 2 0x40002 0x176e5 oops 0
+ciMethodData com/android/tools/r8/ir/code/Value addUser (Lcom/android/tools/r8/ir/code/Instruction;)V 2 52628 orig 264 88 115 255 112 0 0 0 0 32 229 240 34 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 1 0 0 33 98 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x18325970 0xcc44 0x0 0x0 oops 1 2 java/util/LinkedList
+ciMethodData com/android/tools/r8/ir/code/Value addPhiUser (Lcom/android/tools/r8/ir/code/Phi;)V 2 34014 orig 264 88 115 255 112 0 0 0 0 72 232 240 34 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 241 26 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x18325970 0x835e 0x0 0x0 oops 1 2 java/util/LinkedList
+ciMethodData com/android/tools/r8/ir/code/Value clearUsers ()V 2 19480 orig 264 88 115 255 112 0 0 0 0 120 231 240 34 0 0 0 0 40 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93 1 0 0 217 85 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 224 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 28 0x40005 0x0 0x18325970 0x4abb 0x0 0x0 0x100005 0x0 0x18325970 0x4abb 0x0 0x0 0x1c0007 0x1bd0 0x80 0x2eeb 0x260005 0x0 0x1ec0e5f0 0x2eeb 0x0 0x0 0x320005 0x0 0x1bd046a0 0x2eeb 0x0 0x0 oops 4 2 java/util/LinkedList 8 java/util/LinkedList 18 java/util/HashMap 24 java/util/HashSet
+ciMethodData com/android/tools/r8/ir/code/Value removePhiUser (Lcom/android/tools/r8/ir/code/Phi;)V 2 8487 orig 264 88 115 255 112 0 0 0 0 0 233 240 34 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105 1 0 0 241 253 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x18325970 0x1fbe 0x0 0x0 oops 1 2 java/util/LinkedList
+ciMethodData com/android/tools/r8/ir/code/Value replaceUsers (Lcom/android/tools/r8/ir/code/Value;)V 2 14962 orig 264 88 115 255 112 0 0 0 0 96 242 240 34 0 0 0 0 48 7 0 0 136 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 145 203 1 0 97 164 1 0 0 0 0 0 0 0 0 0 2 0 0 0 4 0 34 0 2 0 0 0 224 5 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 188 0x20007 0x3971 0x20 0x1 0x70005 0x0 0x1ec0e540 0x116c 0x1ec0d750 0x2805 0xa0005 0x0 0x1ec0e960 0xca8 0x1ec0e8b0 0x2cc9 0x110005 0x0 0x1ec0eac0 0x1950 0x1ec0ea10 0x3d5d 0x160007 0x3971 0xc8 0x1d3c 0x1a0005 0x0 0x1ec0eac0 0xca8 0x1ec0ea10 0x1094 0x1f0004 0x0 0x20aea7c0 0xa11 0x20aea870 0x242 0x260005 0x10e9 0x20aea7c0 0xa11 0x20aea870 0x242 0x290003 0x1d3c 0xffffffffffffff20 0x2d0005 0x0 0x1ec0e540 0x116c 0x1ec0d750 0x2805 0x300005 0x0 0x1ec0e8b0 0x332c 0x1ec0e960 0x645 0x370005 0x0 0x1ec0ea10 0x3393 0x1ec0eac0 0xc8a 0x3c0007 0x3971 0xc8 0x6ac 0x400005 0x0 0x1ec0eac0 0x645 0x1ec0ea10 0x67 0x450004 0x0 0x1ec0d750 0x6ac 0x0 0x0 0x4c0005 0x0 0x1ec0d750 0x6ac 0x0 0x0 0x4f0003 0x6ac 0xffffffffffffff20 0x560007 0xa98 0x2e0 0x2ed9 0x600005 0x0 0x1ec0e5f0 0x2ed9 0x0 0x0 0x650005 0x0 0x1ec0e6a0 0x2ed9 0x0 0x0 0x6c0005 0x0 0x1ec0e750 0x3f7c 0x0 0x0 0x710007 0x2ed9 0xa8 0x10a3 0x750005 0x0 0x1ec0e750 0x10a3 0x0 0x0 0x7a0004 0x0 0x1ec0e800 0x10a3 0x0 0x0 0x810002 0x10a3 0x840003 0x10a3 0xffffffffffffff40 0x8e0005 0x0 0x1ec0e5f0 0x2ed9 0x0 0x0 0x940005 0x0 0x1ec0d750 0x26ad 0x1ec0e540 0x82c 0x970005 0x0 0x20aea920 0x2ed9 0x0 0x0 0x9e0005 0x0 0x20aea9d0 0x2ed9 0x0 0x0 0xa30007 0x2ed9 0xc8 0x0 0xa70005 0x0 0x0 0x0 0x0 0x0 0xac0004 0x0 0x0 0x0 0x0 0x0 0xb30005 0x0 0x0 0x0 0x0 0x0 0xb60003 0x0 0xffffffffffffff20 0xba0005 0x0 0x1ec0e540 0x116c 0x1ec0d750 0x2805 oops 34 6 com/android/tools/r8/ir/code/Value 8 com/android/tools/r8/ir/code/Phi 12 com/android/tools/r8/com/google/common/collect/SingletonImmutableSet 14 com/android/tools/r8/com/google/common/collect/RegularImmutableSet 18 com/android/tools/r8/com/google/common/collect/Iterators$9 20 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 28 com/android/tools/r8/com/google/common/collect/Iterators$9 30 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 34 com/android/tools/r8/ir/code/InvokeVirtual 36 com/android/tools/r8/ir/code/InstancePut 40 com/android/tools/r8/ir/code/InvokeVirtual 42 com/android/tools/r8/ir/code/InstancePut 49 com/android/tools/r8/ir/code/Value 51 com/android/tools/r8/ir/code/Phi 55 com/android/tools/r8/com/google/common/collect/RegularImmutableSet 57 com/android/tools/r8/com/google/common/collect/SingletonImmutableSet 61 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 63 com/android/tools/r8/com/google/common/collect/Iterators$9 71 com/android/tools/r8/com/google/common/collect/Iterators$9 73 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 77 com/android/tools/r8/ir/code/Phi 83 com/android/tools/r8/ir/code/Phi 96 java/util/HashMap 102 java/util/HashMap$EntrySet 108 java/util/HashMap$EntryIterator 118 java/util/HashMap$EntryIterator 124 java/util/HashMap$Node 135 java/util/HashMap 141 com/android/tools/r8/ir/code/Phi 143 com/android/tools/r8/ir/code/Value 147 java/util/Collections$UnmodifiableSet 153 java/util/Collections$UnmodifiableCollection$1 184 com/android/tools/r8/ir/code/Value 186 com/android/tools/r8/ir/code/Phi
+ciMethodData com/android/tools/r8/ir/code/Instruction replaceValue (Lcom/android/tools/r8/ir/code/Value;Lcom/android/tools/r8/ir/code/Value;)V 2 15688 orig 264 88 115 255 112 0 0 0 0 160 43 59 35 0 0 0 0 112 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34 1 0 0 97 237 0 0 49 225 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 2 0 0 0 24 1 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 35 0x70005 0x0 0x1ec0e3e0 0x59d2 0x0 0x0 0xc0007 0x1dac 0xe8 0x3c26 0x150005 0x0 0x1ec0e3e0 0x3c26 0x0 0x0 0x1a0007 0x1e67 0x80 0x1dbf 0x230005 0x0 0x1ec0e3e0 0x1dbf 0x0 0x0 0x2b0005 0x0 0x1ec0e540 0x1d2f 0x1ec0d750 0x90 0x310003 0x3c26 0xffffffffffffff00 oops 5 2 java/util/ArrayList 12 java/util/ArrayList 22 java/util/ArrayList 28 com/android/tools/r8/ir/code/Value 30 com/android/tools/r8/ir/code/Phi
+ciMethodData com/android/tools/r8/ir/code/Phi replaceOperand (Lcom/android/tools/r8/ir/code/Value;Lcom/android/tools/r8/ir/code/Value;)V 1 7077 orig 264 88 115 255 112 0 0 0 0 208 57 241 34 0 0 0 0 112 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 99 0 0 0 9 8 0 0 177 22 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 9 0 2 0 0 0 24 1 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 35 0x70005 0x0 0x1ec0e3e0 0x3d7 0x0 0x0 0xc0007 0x101 0xe8 0x2d6 0x140005 0x0 0x1ec0e3e0 0x2d6 0x0 0x0 0x1a0007 0x1b8 0x80 0x11e 0x230005 0x0 0x1ec0e3e0 0x11e 0x0 0x0 0x2b0005 0x0 0x1ec0e540 0xe6 0x1ec0d750 0x38 0x310003 0x2d6 0xffffffffffffff00 oops 5 2 java/util/ArrayList 12 java/util/ArrayList 22 java/util/ArrayList 28 com/android/tools/r8/ir/code/Value 30 com/android/tools/r8/ir/code/Phi
+ciMethodData com/android/tools/r8/ir/code/Value replaceUserInDebugData (Ljava/util/Map$Entry;Lcom/android/tools/r8/ir/code/Value;)V 1 4315 orig 264 88 115 255 112 0 0 0 0 40 247 240 34 0 0 0 0 136 3 0 0 224 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 53 0 0 0 9 20 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 17 0 2 0 0 0 48 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 70 0x10005 0x0 0x1ec0e800 0x281 0x0 0x0 0x60004 0x0 0x1bbde6d0 0xf 0x1bbde780 0x19a 0xb0005 0x0 0x1ec0e800 0x281 0x0 0x0 0x100004 0x0 0x196745b0 0x281 0x0 0x0 0x180005 0xd8 0x1bbde6d0 0xf 0x1bbde780 0x19a 0x1c0005 0x0 0x1ec0e540 0x26e 0x1ec0d750 0x13 0x1f0007 0x0 0x110 0x281 0x2a0005 0x0 0x1ec0e5f0 0x281 0x0 0x0 0x2f0004 0x0 0x196745b0 0x281 0x0 0x0 0x370007 0x281 0x50 0x0 0x3c0007 0x0 0x30 0x0 0x430002 0x0 0x530002 0x281 0x560005 0x0 0x1ec0e5f0 0x281 0x0 0x0 oops 12 2 java/util/HashMap$Node 8 com/android/tools/r8/ir/code/Throw 10 com/android/tools/r8/ir/code/Return 14 java/util/HashMap$Node 20 com/android/tools/r8/ir/code/Value$DebugUse 26 com/android/tools/r8/ir/code/Throw 28 com/android/tools/r8/ir/code/Return 32 com/android/tools/r8/ir/code/Value 34 com/android/tools/r8/ir/code/Phi 42 java/util/HashMap 48 com/android/tools/r8/ir/code/Value$DebugUse 66 java/util/HashMap
+ciMethodData com/android/tools/r8/ir/code/Value debugPhiUsers ()Ljava/util/Set; 2 12267 orig 264 88 115 255 112 0 0 0 0 48 221 240 34 0 0 0 0 144 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 166 0 0 0 41 122 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 72 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 9 0x40007 0x2f07 0x38 0x3e 0x80003 0x3e 0x28 0x120002 0x2f07 oops 0
+ciMethodData com/android/tools/r8/ir/code/Phi removeTrivialPhi ()V 2 286320 orig 264 88 115 255 112 0 0 0 0 80 62 241 34 0 0 0 0 40 10 0 0 232 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 233 157 0 0 17 224 10 0 0 0 0 0 0 0 0 0 2 0 0 0 5 0 37 0 2 0 0 0 224 8 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 284 0x60005 0x0 0x1ec0e3e0 0x13bd 0x0 0x0 0xd0005 0x0 0x1ec0e490 0x3a1a 0x0 0x0 0x120007 0xd35 0x190 0x2ce5 0x160005 0x0 0x1ec0e490 0x2ce5 0x0 0x0 0x1b0004 0x0 0x1ec0d750 0x8e9 0x1ec0e540 0x23fc 0x210007 0x11f1 0xffffffffffffff50 0x1af4 0x260007 0x1a45 0x38 0xaf 0x290003 0xaf 0xffffffffffffff10 0x2d0007 0x13bd 0xa0 0x688 0x330007 0x688 0x80 0x0 0x370005 0x0 0x0 0x0 0x0 0x0 0x3a0007 0x0 0x30 0x0 0x410002 0x0 0x480003 0x13bd 0xfffffffffffffe58 0x4e0007 0xd35 0x80 0x0 0x520005 0x0 0x0 0x0 0x0 0x0 0x550007 0x0 0x30 0x0 0x5c0002 0x0 0x610007 0xd35 0x20 0x0 0x690005 0x0 0x1ec0e3e0 0xd35 0x0 0x0 0x700005 0x0 0x1ec0e490 0x2c60 0x0 0x0 0x750007 0xd35 0xc8 0x1f2b 0x790005 0x0 0x1ec0e490 0x1f2b 0x0 0x0 0x7e0004 0x0 0x1ec0d750 0x69a 0x1ec0e540 0x1891 0x840005 0x0 0x1ec0d750 0x69a 0x1ec0e540 0x1891 0x870003 0x1f2b 0xffffffffffffff20 0x8e0007 0x8 0x370 0xd2d 0x950005 0x0 0x1ec0e3e0 0xd2d 0x0 0x0 0x9c0005 0x0 0x1ec0e490 0x23fd 0x0 0x0 0xa10007 0xd2c 0x2f0 0x16d1 0xa50005 0x0 0x1ec0e490 0x16d1 0x0 0x0 0xaa0004 0x0 0x1ec0e5f0 0x16d1 0x0 0x0 0xaf0005 0x0 0x1ec0e5f0 0x16d1 0x0 0x0 0xb40005 0x0 0x1ec0e6a0 0x16d1 0x0 0x0 0xbd0005 0x0 0x1ec0e750 0xfa63 0x0 0x0 0xc20007 0x16d0 0x1c8 0xe393 0xc70005 0x0 0x1ec0e750 0xe393 0x0 0x0 0xcc0004 0x0 0x1ec0e800 0xe393 0x0 0x0 0xd30005 0x0 0x1ec0e800 0xe393 0x0 0x0 0xd90007 0xcf0d 0x100 0x1486 0xdf0005 0x0 0x1ec0e800 0x1486 0x0 0x0 0xe60005 0x0 0x1ec0d750 0x34f 0x1ec0e540 0x1137 0xe90007 0x1137 0x80 0x34f 0xed0005 0x0 0x1ec0d750 0x34f 0x0 0x0 0xf10005 0x0 0x1ec0d750 0x34f 0x0 0x0 0xf40003 0xe393 0xfffffffffffffe20 0xf70003 0x16d0 0xfffffffffffffcf8 0xfb0005 0x0 0x1ec0d750 0xd34 0x0 0x0 0x1010005 0x0 0x1ec0d750 0xd34 0x0 0x0 0x1050005 0x0 0x1ec0e8b0 0xc64 0x1ec0e960 0xd0 0x10c0005 0x0 0x1ec0ea10 0xc66 0x1ec0eac0 0x1a0 0x1110007 0xd35 0xc8 0xd1 0x1150005 0x0 0x1ec0eac0 0xd0 0x1ec0ea10 0x2 0x11a0004 0x0 0x1ec0d750 0xd2 0x0 0x0 0x1210005 0x0 0x1ec0d750 0xd2 0x0 0x0 0x1240003 0xd2 0xffffffffffffff20 0x12c0005 0x0 0x1ec0eb70 0xd35 0x0 0x0 oops 38 2 java/util/ArrayList 8 java/util/ArrayList$Itr 18 java/util/ArrayList$Itr 24 com/android/tools/r8/ir/code/Phi 26 com/android/tools/r8/ir/code/Value 84 java/util/ArrayList 90 java/util/ArrayList$Itr 100 java/util/ArrayList$Itr 106 com/android/tools/r8/ir/code/Phi 108 com/android/tools/r8/ir/code/Value 112 com/android/tools/r8/ir/code/Phi 114 com/android/tools/r8/ir/code/Value 125 java/util/ArrayList 131 java/util/ArrayList$Itr 141 java/util/ArrayList$Itr 147 java/util/HashMap 153 java/util/HashMap 159 java/util/HashMap$EntrySet 165 java/util/HashMap$EntryIterator 175 java/util/HashMap$EntryIterator 181 java/util/HashMap$Node 187 java/util/HashMap$Node 197 java/util/HashMap$Node 203 com/android/tools/r8/ir/code/Phi 205 com/android/tools/r8/ir/code/Value 213 com/android/tools/r8/ir/code/Phi 219 com/android/tools/r8/ir/code/Phi 231 com/android/tools/r8/ir/code/Phi 237 com/android/tools/r8/ir/code/Phi 243 com/android/tools/r8/com/google/common/collect/RegularImmutableSet 245 com/android/tools/r8/com/google/common/collect/SingletonImmutableSet 249 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 251 com/android/tools/r8/com/google/common/collect/Iterators$9 259 com/android/tools/r8/com/google/common/collect/Iterators$9 261 com/android/tools/r8/com/google/common/collect/Iterators$ArrayItr 265 com/android/tools/r8/ir/code/Phi 271 com/android/tools/r8/ir/code/Phi 280 com/android/tools/r8/ir/code/BasicBlock
+ciMethodData com/android/tools/r8/ir/code/BasicBlock removePhi (Lcom/android/tools/r8/ir/code/Phi;)V 2 10522 orig 264 88 115 255 112 0 0 0 0 176 46 255 34 0 0 0 0 240 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 0 0 0 41 68 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 4 0 2 0 0 0 160 1 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 52 0x50005 0x0 0x1ec0e3e0 0x2885 0x0 0x0 0xe0007 0x2885 0x170 0x0 0x150007 0x0 0x150 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x220007 0x0 0x100 0x0 0x2d0002 0x0 0x330005 0x0 0x0 0x0 0x0 0x0 0x370005 0x0 0x0 0x0 0x0 0x0 0x3d0005 0x0 0x0 0x0 0x0 0x0 0x400005 0x0 0x0 0x0 0x0 0x0 0x430002 0x0 oops 1 2 java/util/ArrayList
+ciMethodData com/android/tools/r8/ir/code/Phi asPhi ()Lcom/android/tools/r8/ir/code/Phi; 2 1667 orig 264 88 115 255 112 0 0 0 0 128 45 241 34 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 25 36 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/LinkedHashMap clear ()V 1 658 orig 264 88 115 255 112 0 0 0 0 160 175 153 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x0 oops 0
+ciMethodData com/android/tools/r8/ir/code/Instruction replaceDebugValue (Lcom/android/tools/r8/ir/code/Value;Lcom/android/tools/r8/ir/code/Value;)V 1 694 orig 264 88 115 255 112 0 0 0 0 88 45 59 35 0 0 0 0 40 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 177 13 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 16 0 2 0 0 0 208 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 26 0x50005 0x0 0x1bd046a0 0x1b6 0x0 0x0 0xa0007 0x0 0xa0 0x1b6 0xe0005 0x0 0x1ec0e540 0x1a7 0x1ec0d750 0xf 0x110007 0x0 0x50 0x1b6 0x160005 0xae 0x1bbde780 0x106 0x1bd04750 0x2 oops 5 2 java/util/HashSet 12 com/android/tools/r8/ir/code/Value 14 com/android/tools/r8/ir/code/Phi 22 com/android/tools/r8/ir/code/Return 24 com/android/tools/r8/ir/code/InvokeStatic
+ciMethodData com/android/tools/r8/ir/code/Value$DebugUse join (Lcom/android/tools/r8/ir/code/Value$DebugUse;Lcom/android/tools/r8/ir/code/Value$DebugUse;)Lcom/android/tools/r8/ir/code/Value$DebugUse; 2 4647 orig 264 88 115 255 112 0 0 0 0 104 191 5 35 0 0 0 0 160 2 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 1 0 0 57 137 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 80 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 42 0x40007 0x0 0x40 0x1127 0xb0007 0x1127 0x20 0x0 0x140007 0x1cd 0x20 0xf5a 0x1d0007 0x1cd 0x20 0x0 0x260007 0x0 0x20 0x1cd 0x2e0007 0x0 0xb0 0x0 0x350007 0x0 0x40 0x0 0x3c0007 0x0 0x70 0x0 0x430007 0x0 0x40 0x0 0x4a0007 0x0 0x30 0x0 0x510002 0x0 oops 0
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$666
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$665
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$664
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder$FillArrayDataInfo
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMoveSet$$Lambda$663
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMoveSet$$Lambda$662
+instanceKlass java/util/AbstractList$1
+instanceKlass com/android/tools/r8/ir/code/ArrayGet$1
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/AbstractObjectIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectList
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectIterators
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectSets
+instanceKlass com/android/tools/r8/utils/ZipUtils
+instanceKlass java/util/zip/Adler32
+instanceKlass com/android/tools/r8/utils/DexVersion$1
+instanceKlass com/android/tools/r8/dex/Constants
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$661
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$660
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$659
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$658
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$657
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$656
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$655
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$654
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$653
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$651
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$652
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$646
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$650
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$649
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$648
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$647
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$645
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$642
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$644
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$643
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$641
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$640
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$639
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$638
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$637
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$636
+instanceKlass com/android/tools/r8/utils/EncodedValueUtils
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$SwitchBuilder$$Lambda$635
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$SwitchBuilder$$Lambda$634
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ObjectAVLTreeMap$TreeIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/AbstractInt2ObjectMap$BasicEntry
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ObjectMap$Entry
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ObjectSortedMap
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$633
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$632
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$631
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$630
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$629
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$628
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$627
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$626
+instanceKlass com/android/tools/r8/utils/LebUtils
+instanceKlass com/android/tools/r8/dex/DebugBytecodeWriter
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$625
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$624
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$623
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$622
+instanceKlass com/android/tools/r8/dex/FileWriter$Layout
+instanceKlass com/android/tools/r8/utils/OrderedMergingIterator
+instanceKlass com/android/tools/r8/graph/DexProgramClass$$Lambda$621
+instanceKlass com/android/tools/r8/graph/DexProgramClass$$Lambda$620
+instanceKlass com/android/tools/r8/graph/DexItem$$Lambda$619
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Reference2IntLinkedOpenHashMap$MapIterator
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$618
+instanceKlass com/android/tools/r8/ir/code/Neg$1
+instanceKlass com/android/tools/r8/graph/DexProgramClass$$Lambda$617
+instanceKlass com/android/tools/r8/graph/DexProgramClass$$Lambda$616
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2IntLinkedOpenHashMap$MapIterator
+instanceKlass com/android/tools/r8/dex/FileWriter$$Lambda$615
+instanceKlass com/android/tools/r8/graph/ProgramClassVisitor
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2IntSortedMap$FastSortedEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2IntMap$FastEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/AbstractObject2IntFunction
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2IntSortedMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2IntMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2IntFunction
+instanceKlass com/android/tools/r8/dex/DexOutputBuffer
+instanceKlass com/android/tools/r8/dex/FileWriter
+instanceKlass com/android/tools/r8/dex/ApplicationWriter$$Lambda$614
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$613
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$612
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$611
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$610
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$609
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$608
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Reference2IntSortedMap$FastSortedEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ReferenceSortedSet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Reference2IntSortedMap
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$607
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$$Lambda$606
+instanceKlass java/util/IdentityHashMap$IdentityHashMapSpliterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Reference2IntMap$FastEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ReferenceSet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/AbstractReference2IntFunction
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping$ProgramClassDepthsMemoized
+instanceKlass com/android/tools/r8/dex/ApplicationWriter$$Lambda$605
+instanceKlass com/android/tools/r8/graph/ObjectToOffsetMapping
+instanceKlass com/android/tools/r8/graph/DexItem$$Lambda$604
+instanceKlass com/android/tools/r8/com/google/common/collect/Iterators$7
+instanceKlass com/android/tools/r8/com/google/common/collect/Iterators$2
+instanceKlass com/android/tools/r8/dex/VirtualFile$VirtualFileCycler
+instanceKlass com/android/tools/r8/dex/VirtualFile$PackageSplitPopulator
+instanceKlass com/android/tools/r8/dex/VirtualFile$DistributorBase$$Lambda$603
+instanceKlass com/android/tools/r8/com/google/common/collect/ImmutableMap$Builder
+instanceKlass com/android/tools/r8/utils/DescriptorUtils
+instanceKlass com/android/tools/r8/dex/VirtualFile$$Lambda$602
+instanceKlass com/android/tools/r8/naming/ClassNameMapper
+instanceKlass com/android/tools/r8/naming/ProguardMap
+instanceKlass com/android/tools/r8/com/google/common/collect/Collections2
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$601
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$600
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$599
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$598
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$597
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$596
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$595
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$594
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction$$Lambda$593
+instanceKlass com/android/tools/r8/dex/VirtualFile$IndexedItemTransaction
+instanceKlass com/android/tools/r8/dex/VirtualFile$VirtualFileIndexedItemCollection
+instanceKlass com/android/tools/r8/dex/IndexedItemCollection
+instanceKlass com/android/tools/r8/dex/VirtualFile
+instanceKlass com/android/tools/r8/graph/DexEncodedAnnotation$$Lambda$592
+instanceKlass com/android/tools/r8/graph/DexAnnotationSet$$Lambda$591
+instanceKlass com/android/tools/r8/graph/DexItem$$Lambda$590
+instanceKlass com/android/tools/r8/dex/ApplicationWriter$$Lambda$589
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$588
+instanceKlass com/android/tools/r8/com/google/gson/internal/bind/TypeAdapters$30
+instanceKlass com/android/tools/r8/com/google/gson/internal/bind/TypeAdapters$34
+instanceKlass com/android/tools/r8/com/google/gson/internal/bind/TypeAdapters$26
+instanceKlass com/android/tools/r8/com/google/gson/internal/bind/TypeAdapters$35
+instanceKlass com/android/tools/r8/com/google/gson/internal/bind/TypeAdapters$33
+instanceKlass com/android/tools/r8/com/google/gson/internal/bind/TypeAdapters$32
+instanceKlass com/android/tools/r8/com/google/gson/stream/JsonReader
+instanceKlass com/android/tools/r8/com/google/gson/TypeAdapterFactory
+instanceKlass com/android/tools/r8/com/google/gson/TypeAdapter
+instanceKlass com/android/tools/r8/com/google/gson/internal/bind/TypeAdapters
+instanceKlass com/android/tools/r8/com/google/gson/internal/Streams
+instanceKlass com/android/tools/r8/com/google/gson/stream/JsonWriter
+instanceKlass com/android/tools/r8/com/google/gson/internal/LinkedTreeMap$LinkedTreeMapIterator
+instanceKlass com/android/tools/r8/dex/Marker$$Lambda$587
+instanceKlass com/android/tools/r8/dex/Marker$$Lambda$586
+instanceKlass com/android/tools/r8/naming/NamingLens
+instanceKlass com/android/tools/r8/dex/MixedSectionCollection
+instanceKlass com/android/tools/r8/dex/VirtualFile$Distributor
+instanceKlass com/android/tools/r8/DataResourceProvider$Visitor
+instanceKlass com/android/tools/r8/dex/ApplicationWriter
+instanceKlass com/android/tools/r8/com/google/gson/internal/$Gson$Preconditions
+instanceKlass com/android/tools/r8/com/google/gson/internal/LinkedTreeMap$Node
+instanceKlass com/android/tools/r8/com/google/gson/internal/LinkedTreeMap$1
+instanceKlass com/android/tools/r8/com/google/gson/JsonElement
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder$SwitchPayloadInfo
+instanceKlass com/android/tools/r8/dex/Marker
+instanceKlass com/android/tools/r8/com/google/common/collect/AbstractMapBasedMultimap$AsMap$AsMapIterator
+instanceKlass com/android/tools/r8/com/google/common/collect/Iterators$ConcatenatedIterator
+instanceKlass com/android/tools/r8/graph/LazyLoadedDexApplication$Builder$$Lambda$585
+instanceKlass com/android/tools/r8/com/google/common/base/Optional
+instanceKlass com/android/tools/r8/com/google/common/collect/FluentIterable
+instanceKlass com/android/tools/r8/com/google/common/collect/Lists$ReverseList$1
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder$$Lambda$584
+instanceKlass com/android/tools/r8/com/google/common/base/ExtraObjectsMethodsForWeb
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$583
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$InstructionBuilder
+instanceKlass com/android/tools/r8/ir/code/LogicalBinop$1
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder$TryItem
+instanceKlass com/android/tools/r8/ir/optimize/PeepholeOptimizer$$Lambda$582
+instanceKlass com/android/tools/r8/ir/code/BasicBlock$$Lambda$581
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/com/google/common/collect/Lists
+instanceKlass com/android/tools/r8/graph/AppInfo$EmptyResult
+instanceKlass com/android/tools/r8/graph/AppInfo$MultiResultBuilder
+instanceKlass com/android/tools/r8/org/objectweb/asm/tree/TryCatchBlockNode
+instanceKlass com/android/tools/r8/org/objectweb/asm/Handle
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$580
+instanceKlass com/android/tools/r8/ir/code/If$1
+instanceKlass com/android/tools/r8/ir/code/StaticPut$1
+instanceKlass com/android/tools/r8/ir/code/ArrayPut$1
+instanceKlass com/android/tools/r8/ir/code/StaticGet$1
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$579
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$578
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$577
+instanceKlass com/android/tools/r8/ir/code/NumberConversion$1
+instanceKlass com/android/tools/r8/ir/code/ArithmeticBinop$1
+instanceKlass com/android/tools/r8/ir/code/Cmp$1
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$576
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$575
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder$1
+instanceKlass com/android/tools/r8/com/google/common/collect/AbstractMultimap
+instanceKlass com/android/tools/r8/ir/optimize/PeepholeOptimizer$$Lambda$574
+instanceKlass com/android/tools/r8/ir/regalloc/RegisterMove
+instanceKlass com/android/tools/r8/ir/regalloc/RegisterMoveScheduler
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMoveSet$$Lambda$573
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMoveSet$$Lambda$572
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMoveSet$$Lambda$571
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMoveSet$$Lambda$570
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMove
+instanceKlass com/android/tools/r8/com/google/common/collect/Multisets$DecreasingCount
+instanceKlass com/android/tools/r8/com/google/common/collect/Multisets$AbstractEntry
+instanceKlass com/android/tools/r8/com/google/common/collect/Count
+instanceKlass com/android/tools/r8/com/google/common/primitives/Ints
+instanceKlass com/android/tools/r8/com/google/common/collect/AbstractMapBasedMultiset$1
+instanceKlass com/android/tools/r8/com/google/common/collect/SortedMultiset
+instanceKlass com/android/tools/r8/com/google/common/collect/SortedIterable
+instanceKlass com/android/tools/r8/com/google/common/collect/SortedMultisetBridge
+instanceKlass com/android/tools/r8/com/google/common/collect/Multiset$Entry
+instanceKlass com/android/tools/r8/com/google/common/collect/Multisets
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceAVLTreeMap$2$1
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$569
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$568
+instanceKlass com/android/tools/r8/ir/code/BasicBlockInstructionIterator$$Lambda$567
+instanceKlass com/android/tools/r8/ir/conversion/IRBuilder$ValueList
+instanceKlass com/android/tools/r8/ir/code/Value$1
+instanceKlass com/android/tools/r8/utils/NumberUtils
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$566
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$565
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectLinkedOpenCustomHashMap$MapEntry
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectLinkedOpenCustomHashMap$MapIterator
+instanceKlass com/android/tools/r8/ir/optimize/ConstantCanonicalizer$$Lambda$564
+instanceKlass java/util/stream/SliceOps
+instanceKlass com/android/tools/r8/ir/optimize/ConstantCanonicalizer$$Lambda$563
+instanceKlass com/android/tools/r8/ir/optimize/ConstantCanonicalizer$$Lambda$562
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectMap$Entry
+instanceKlass com/android/tools/r8/ir/code/Return$1
+instanceKlass com/android/tools/r8/code/MoveType$1
+instanceKlass com/android/tools/r8/ir/code/WideConstant
+instanceKlass com/android/tools/r8/ir/code/SingleConstant
+instanceKlass com/android/tools/r8/ir/code/InstanceGet$1
+instanceKlass com/android/tools/r8/graph/DexEncodedMethod$1
+instanceKlass com/android/tools/r8/ir/optimize/Inliner
+instanceKlass com/android/tools/r8/graph/DexDebugEventVisitor
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder$TryInfo
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$561
+instanceKlass com/android/tools/r8/graph/DexItemFactory$$Lambda$560
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/DexDebugEventBuilder
+instanceKlass com/android/tools/r8/ir/code/InstancePut$1
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceMaps
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder$Info
+instanceKlass com/android/tools/r8/ir/conversion/DexBuilder
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/optimize/MoveEliminator$$Lambda$559
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/optimize/MoveEliminator
+instanceKlass com/android/tools/r8/ir/optimize/PeepholeOptimizer
+instanceKlass com/android/tools/r8/ir/code/BasicBlock$$Lambda$556
+instanceKlass com/android/tools/r8/ir/code/Instruction$$Lambda$558
+instanceKlass com/android/tools/r8/ir/code/Instruction$$Lambda$557
+instanceKlass com/android/tools/r8/ir/code/BasicBlock$$Lambda$555
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$554
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$553
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$552
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$551
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$LocalRange
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$549
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$550
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$547
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$548
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$546
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$545
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$544
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$543
+instanceKlass com/android/tools/r8/utils/ListUtils
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$542
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$541
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$540
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$539
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$538
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$537
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator$$Lambda$536
+instanceKlass com/android/tools/r8/ir/regalloc/RegisterPositions$1
+instanceKlass com/android/tools/r8/ir/regalloc/SpillMoveSet
+instanceKlass com/android/tools/r8/ir/regalloc/RegisterPositions
+instanceKlass java/util/IdentityHashMap$IdentityHashMapIterator
+instanceKlass com/android/tools/r8/ir/regalloc/LiveIntervalsUse
+instanceKlass com/android/tools/r8/ir/regalloc/LiveRange
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntListIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntBidirectionalIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntStack
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/Stack
+instanceKlass com/android/tools/r8/ir/regalloc/LiveIntervals
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Reference2IntMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Reference2IntFunction
+instanceKlass com/android/tools/r8/com/google/common/collect/Multiset
+instanceKlass com/android/tools/r8/ir/regalloc/LinearScanRegisterAllocator
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$535
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$534
+instanceKlass com/android/tools/r8/ir/code/IRCode$BlockMarker
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$533
+instanceKlass com/android/tools/r8/graph/DexEncodedMethod$ClassInlinerEligibility
+instanceKlass com/android/tools/r8/ir/code/IRCode$$Lambda$532
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$530
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$531
+instanceKlass com/android/tools/r8/com/google/common/base/Suppliers$MemoizingSupplier
+instanceKlass com/android/tools/r8/com/google/common/base/Suppliers$NonSerializableMemoizingSupplier
+instanceKlass com/android/tools/r8/com/google/common/base/Suppliers
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$529
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter$$Lambda$528
+instanceKlass com/android/tools/r8/com/google/common/base/Supplier
+instanceKlass com/android/tools/r8/ir/code/DominatorTree
+instanceKlass com/android/tools/r8/ir/optimize/ConstantCanonicalizer$1
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectSortedMap$FastSortedEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectMap$FastEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/AbstractObject2ObjectFunction
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectSortedMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/Object2ObjectFunction
+instanceKlass com/android/tools/r8/ir/optimize/ConstantCanonicalizer
+instanceKlass com/android/tools/r8/ir/optimize/DeadCodeRemover
+instanceKlass com/android/tools/r8/ir/analysis/constant/SparseConditionalConstantPropagation$$Lambda$526
+instanceKlass com/android/tools/r8/ir/code/BasicBlockIterator
+instanceKlass com/android/tools/r8/ir/analysis/constant/SparseConditionalConstantPropagation$$Lambda$527
+instanceKlass com/android/tools/r8/ir/analysis/constant/SparseConditionalConstantPropagation$$Lambda$524
+instanceKlass com/android/tools/r8/ir/analysis/constant/SparseConditionalConstantPropagation$$Lambda$525
+instanceKlass com/android/tools/r8/ir/analysis/constant/SparseConditionalConstantPropagation$$Lambda$523
+instanceKlass com/android/tools/r8/ir/analysis/constant/SparseConditionalConstantPropagation$$Lambda$522
+instanceKlass com/android/tools/r8/ir/analysis/constant/SparseConditionalConstantPropagation
+instanceKlass com/android/tools/r8/ir/analysis/type/TypeLatticeElement
+instanceKlass com/android/tools/r8/ir/analysis/type/TypeAnalysis$1
+instanceKlass com/android/tools/r8/ir/analysis/type/TypeAnalysis
+instanceKlass com/android/tools/r8/graph/DexClass$$Lambda$520
+instanceKlass com/android/tools/r8/graph/DexClass$$Lambda$521
+instanceKlass com/android/tools/r8/ir/code/IRCode$$Lambda$518
+instanceKlass com/android/tools/r8/ir/code/IRCode$$Lambda$519
+instanceKlass java/util/LinkedList$LLSpliterator
+instanceKlass com/android/tools/r8/ir/code/IRCodeInstructionsIterator
+instanceKlass com/android/tools/r8/ir/code/BasicBlockInstructionIterator
+instanceKlass com/android/tools/r8/ir/code/Invoke$1
+instanceKlass com/android/tools/r8/code/Instruction
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$$Lambda$517
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/ir/code/ValueType$1
+instanceKlass com/android/tools/r8/cf/code/CfInstruction
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$$Lambda$516
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$$Lambda$515
+instanceKlass com/android/tools/r8/ir/conversion/IRBuilder$WorklistItem
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$$Lambda$514
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$$Lambda$512
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$$Lambda$513
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/AbstractIntIterator
+instanceKlass com/android/tools/r8/ir/conversion/JarState$Snapshot
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$JarStateWorklistItem
+instanceKlass com/android/tools/r8/ir/analysis/constant/LatticeElement
+instanceKlass com/android/tools/r8/ir/code/Value$DebugData
+instanceKlass com/android/tools/r8/ir/conversion/JarState$Slot
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceOpenHashMap$MapEntry
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceOpenHashMap$MapIterator
+instanceKlass com/android/tools/r8/utils/Pair
+instanceKlass com/android/tools/r8/ir/code/Position
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntArrays$ArrayHashStrategy
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntArrays$Segment
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/Hash$Strategy
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntArrays
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntIterator
+instanceKlass com/android/tools/r8/ir/code/CatchHandlers
+instanceKlass com/android/tools/r8/ir/code/InstructionListIterator
+instanceKlass com/android/tools/r8/ir/code/InstructionIterator
+instanceKlass com/android/tools/r8/ir/code/NextUntilIterator
+instanceKlass com/android/tools/r8/ir/code/BasicBlock
+instanceKlass com/android/tools/r8/ir/conversion/IRBuilder$BlockInfo
+instanceKlass com/android/tools/r8/ir/code/ValueNumberGenerator
+instanceKlass com/android/tools/r8/ir/conversion/IRBuilder
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceAVLTreeMap$TreeIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectListIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectBidirectionalIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/BidirectionalIterator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectIterator
+instanceKlass com/android/tools/r8/ir/conversion/JarState$LocalNodeInfo
+instanceKlass com/android/tools/r8/graph/DebugLocalInfo
+instanceKlass com/android/tools/r8/com/google/common/base/Equivalence$Wrapper
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/AbstractInt2ReferenceMap$BasicEntry
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceMap$Entry
+instanceKlass com/android/tools/r8/ir/conversion/JarState$LocalsAtOffset
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectSortedSet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntComparator
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntSortedSet
+instanceKlass com/android/tools/r8/ir/conversion/JarState$Local
+instanceKlass com/android/tools/r8/com/google/common/base/Predicate
+instanceKlass com/android/tools/r8/com/google/common/base/Equivalence
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceSortedMap
+instanceKlass com/android/tools/r8/ir/conversion/JarState
+instanceKlass com/android/tools/r8/graph/JarApplicationReader$$Lambda$510
+instanceKlass com/android/tools/r8/graph/JarApplicationReader$$Lambda$511
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceMap$FastEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ReferenceCollection
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/AbstractInt2ReferenceFunction
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode$TryCatchBlock
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ReferenceFunction
+instanceKlass com/android/tools/r8/ir/conversion/JarSourceCode
+instanceKlass com/android/tools/r8/org/objectweb/asm/tree/InsnList$InsnListIterator
+instanceKlass com/android/tools/r8/org/objectweb/asm/tree/LocalVariableNode
+instanceKlass com/android/tools/r8/org/objectweb/asm/ModuleVisitor
+instanceKlass com/android/tools/r8/org/objectweb/asm/Label
+instanceKlass com/android/tools/r8/org/objectweb/asm/tree/InsnList
+instanceKlass com/android/tools/r8/org/objectweb/asm/tree/AbstractInsnNode
+instanceKlass com/android/tools/r8/org/objectweb/asm/Opcodes
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$508
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$509
+instanceKlass com/android/tools/r8/ir/code/IRCode
+instanceKlass com/android/tools/r8/ir/optimize/Outliner
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$507
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$506
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$505
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$504
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$503
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$502
+instanceKlass com/android/tools/r8/graph/DexApplication$$Lambda$501
+instanceKlass com/android/tools/r8/graph/DexApplication$$Lambda$500
+instanceKlass com/android/tools/r8/ir/desugar/CovariantReturnTypeAnnotationTransformer
+instanceKlass com/android/tools/r8/ir/desugar/StringConcatRewriter
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$499
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$498
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$497
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter$$Lambda$496
+instanceKlass com/android/tools/r8/ir/code/Value
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntList
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2IntMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2IntFunction
+instanceKlass com/android/tools/r8/ir/optimize/CodeRewriter
+instanceKlass com/android/tools/r8/graph/GraphLense
+instanceKlass com/android/tools/r8/ir/conversion/OptimizationFeedbackSimple
+instanceKlass com/android/tools/r8/ir/conversion/OptimizationFeedbackIgnore
+instanceKlass com/android/tools/r8/ir/analysis/type/TypeEnvironment
+instanceKlass com/android/tools/r8/ir/regalloc/RegisterAllocator
+instanceKlass com/android/tools/r8/ir/conversion/CallSiteInformation
+instanceKlass com/android/tools/r8/com/google/common/collect/ListMultimap
+instanceKlass com/android/tools/r8/com/google/common/collect/Multimap
+instanceKlass com/android/tools/r8/ir/conversion/OptimizationFeedback
+instanceKlass com/android/tools/r8/ir/conversion/IRConverter
+instanceKlass com/android/tools/r8/utils/ProgramClassCollection$$Lambda$495
+instanceKlass com/android/tools/r8/utils/ProgramClassCollection$$Lambda$494
+instanceKlass com/android/tools/r8/utils/ThreadUtils
+instanceKlass com/android/tools/r8/ir/code/Instruction
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/JarClassFileReader$$Lambda$493
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/com/google/common/base/MoreObjects
+instanceKlass com/android/tools/r8/graph/DexEncodedMethod$OptimizationInfo
+instanceKlass com/android/tools/r8/naming/MemberNaming$Signature
+instanceKlass com/android/tools/r8/graph/AppInfo
+instanceKlass com/android/tools/r8/ir/conversion/SourceCode
+instanceKlass com/android/tools/r8/org/objectweb/asm/util/Printer
+instanceKlass com/android/tools/r8/graph/InnerClassAttribute
+instanceKlass com/android/tools/r8/graph/JarApplicationReader$$Lambda$492
+instanceKlass com/android/tools/r8/graph/JarApplicationReader$$Lambda$490
+instanceKlass com/android/tools/r8/graph/JarApplicationReader$$Lambda$491
+instanceKlass com/android/tools/r8/org/objectweb/asm/Type
+instanceKlass com/android/tools/r8/org/objectweb/asm/Context
+instanceKlass com/android/tools/r8/org/objectweb/asm/Attribute
+instanceKlass com/android/tools/r8/graph/JarClassFileReader$ReparseContext
+instanceKlass com/android/tools/r8/org/objectweb/asm/MethodVisitor
+instanceKlass com/android/tools/r8/org/objectweb/asm/FieldVisitor
+instanceKlass com/android/tools/r8/org/objectweb/asm/ClassReader
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ClassReader$$Lambda$489
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ClassReader$$Lambda$488
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$487
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$486
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ClassReader$$Lambda$484
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ClassReader$$Lambda$485
+instanceKlass com/android/tools/r8/org/objectweb/asm/AnnotationVisitor
+instanceKlass com/android/tools/r8/org/objectweb/asm/ClassVisitor
+instanceKlass com/android/tools/r8/graph/JarClassFileReader
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$483
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$482
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$481
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$480
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$479
+instanceKlass com/android/tools/r8/graph/ClassKind$$Lambda$478
+instanceKlass com/android/tools/r8/graph/ClassKind$Factory
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/r8/graph/AppInfo$ResolutionResult
+instanceKlass com/android/tools/r8/graph/EnclosingMethodAttribute
+instanceKlass com/android/tools/r8/graph/JarApplicationReader
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ClassReader
+instanceKlass com/android/tools/r8/dex/ApplicationReader$$Lambda$477
+instanceKlass com/android/tools/r8/dex/ApplicationReader$$Lambda$476
+instanceKlass com/android/tools/r8/dex/ApplicationReader$ProgramClassConflictResolver
+instanceKlass com/android/tools/r8/utils/ClassMap
+instanceKlass com/android/tools/r8/graph/DexApplication
+instanceKlass com/android/tools/r8/graph/DexApplication$Builder
+instanceKlass com/android/tools/r8/dex/ApplicationReader
+instanceKlass com/android/tools/r8/utils/Timing$Node
+instanceKlass com/android/tools/r8/utils/Timing
+instanceKlass com/android/tools/r8/utils/ExceptionUtils
+instanceKlass com/android/tools/r8/D8$$Lambda$475
+instanceKlass com/android/tools/r8/D8$$Lambda$474
+instanceKlass com/android/tools/r8/utils/ExceptionUtils$CompileAction
+instanceKlass com/android/tools/r8/shaking/ProguardPathList
+instanceKlass com/android/tools/r8/naming/DictionaryReader
+instanceKlass com/android/tools/r8/shaking/ProguardMemberRule$Builder
+instanceKlass com/android/tools/r8/graph/AccessFlags
+instanceKlass com/android/tools/r8/shaking/ProguardMemberRule
+instanceKlass com/android/tools/r8/shaking/ProguardClassNameList
+instanceKlass com/android/tools/r8/shaking/ProguardWildcard
+instanceKlass com/android/tools/r8/shaking/ProguardTypeMatcher
+instanceKlass com/android/tools/r8/shaking/ProguardKeepRuleModifiers
+instanceKlass com/android/tools/r8/shaking/ProguardAccessFlags
+instanceKlass com/android/tools/r8/shaking/ProguardClassSpecification$Builder
+instanceKlass com/android/tools/r8/shaking/ProguardConfiguration$Builder$$Lambda$472
+instanceKlass com/android/tools/r8/shaking/ProguardConfiguration$Builder$$Lambda$473
+instanceKlass com/android/tools/r8/shaking/ProguardKeepRuleModifiers$Builder
+instanceKlass com/android/tools/r8/shaking/ProguardKeepAttributes
+instanceKlass com/android/tools/r8/shaking/ProguardPathFilter$Builder
+instanceKlass com/android/tools/r8/shaking/ProguardPathFilter
+instanceKlass com/android/tools/r8/com/google/common/collect/ImmutableCollection$Builder
+instanceKlass com/android/tools/r8/shaking/ProguardClassFilter$Builder
+instanceKlass com/android/tools/r8/shaking/ProguardClassFilter
+instanceKlass com/android/tools/r8/shaking/ProguardClassSpecification
+instanceKlass com/android/tools/r8/shaking/ProguardConfiguration$Builder
+instanceKlass com/android/tools/r8/shaking/ProguardConfiguration
+instanceKlass com/android/tools/r8/utils/InternalOptions$TestingOptions
+instanceKlass com/android/tools/r8/utils/OffOrAuto$1
+instanceKlass com/android/tools/r8/joptsimple/ValueConverter
+instanceKlass com/android/tools/r8/utils/InternalOptions$OutlineOptions
+instanceKlass com/android/tools/r8/utils/VersionProperties
+instanceKlass com/android/tools/r8/Version
+instanceKlass com/android/tools/r8/kotlin/Kotlin$Metadata
+instanceKlass com/android/tools/r8/kotlin/Kotlin$Intrinsics
+instanceKlass com/android/tools/r8/com/google/common/base/Converter
+instanceKlass com/android/tools/r8/com/google/common/collect/Maps$EntryTransformer
+instanceKlass com/android/tools/r8/com/google/common/collect/SortedMapDifference
+instanceKlass com/android/tools/r8/com/google/common/collect/MapDifference
+instanceKlass com/android/tools/r8/com/google/common/collect/Maps
+instanceKlass com/android/tools/r8/com/google/common/collect/Sets
+instanceKlass com/android/tools/r8/kotlin/Kotlin$Functional
+instanceKlass com/android/tools/r8/kotlin/KotlinInfo
+instanceKlass com/android/tools/r8/kotlin/Kotlin
+instanceKlass com/android/tools/r8/graph/DexItemFactory$PolymorphicMethods
+instanceKlass com/android/tools/r8/graph/DexItemFactory$AtomicFieldUpdaterMethods
+instanceKlass com/android/tools/r8/graph/DexItemFactory$ClassMethods
+instanceKlass com/android/tools/r8/graph/DexItemFactory$ThrowableMethods
+instanceKlass com/android/tools/r8/graph/DexItemFactory$LongMethods
+instanceKlass com/android/tools/r8/graph/DexItemFactory$ObjectMethods
+instanceKlass com/android/tools/r8/graph/DexItemFactory$ObjectsMethods
+instanceKlass com/android/tools/r8/utils/IdentifierUtils
+instanceKlass com/android/tools/r8/graph/DexItemFactory$StringBuildingMethods
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/HashCommon
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ObjectMap$FastEntrySet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectSet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntSet
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntCollection
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/IntIterable
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectCollection
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/objects/ObjectIterable
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/AbstractInt2ObjectFunction
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/Hash
+instanceKlass com/android/tools/r8/com/google/common/collect/PeekingIterator
+instanceKlass com/android/tools/r8/com/google/common/collect/Iterators
+instanceKlass com/android/tools/r8/com/google/common/collect/Hashing
+instanceKlass com/android/tools/r8/com/google/common/collect/CollectPreconditions
+instanceKlass com/android/tools/r8/graph/PresortedComparable
+instanceKlass com/android/tools/r8/graph/Presorted
+instanceKlass com/android/tools/r8/graph/DexItem
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ObjectMap
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/ints/Int2ObjectFunction
+instanceKlass com/android/tools/r8/it/unimi/dsi/fastutil/Function
+instanceKlass com/android/tools/r8/graph/DexItemFactory
+instanceKlass com/android/tools/r8/utils/InternalOptions
+instanceKlass com/android/tools/r8/D8
+instanceKlass com/android/tools/r8/com/google/common/collect/AbstractMapEntry
+instanceKlass com/android/tools/r8/com/google/common/base/Function
+instanceKlass com/android/tools/r8/com/google/common/collect/Iterables
+instanceKlass com/android/tools/r8/com/google/common/collect/BiMap
+instanceKlass com/android/tools/r8/com/google/common/collect/ImmutableMap
+instanceKlass com/android/tools/r8/com/google/common/base/Preconditions
+instanceKlass com/android/tools/r8/utils/AndroidApp$Builder$1
+instanceKlass com/android/tools/r8/com/google/common/collect/ObjectArrays
+instanceKlass com/android/tools/r8/com/google/common/collect/UnmodifiableIterator
+instanceKlass com/android/tools/r8/DexFilePerClassFileConsumer
+instanceKlass com/android/tools/r8/ClassFileConsumer
+instanceKlass com/android/tools/r8/utils/ArchiveBuilder
+instanceKlass com/android/tools/r8/utils/OutputBuilder
+instanceKlass com/android/tools/r8/DexIndexedConsumer$ForwardingConsumer
+instanceKlass com/android/tools/r8/DexIndexedConsumer
+instanceKlass com/android/tools/r8/utils/FileUtils
+instanceKlass com/android/tools/r8/ProgramResource$ByteResource
+instanceKlass com/android/tools/r8/ProgramResource
+instanceKlass com/android/tools/r8/Resource
+instanceKlass com/android/tools/r8/BaseCommand$Builder$$Lambda$471
+instanceKlass com/android/tools/r8/BaseCommand$Builder$$Lambda$470
+instanceKlass com/android/builder/dexing/NoCacheJarClassFileEntry
+instanceKlass com/android/builder/dexing/D8DexArchiveBuilder$$Lambda$469
+instanceKlass com/android/builder/dexing/D8DexArchiveBuilder$$Lambda$468
+instanceKlass com/android/tools/r8/ProgramResourceProvider
+instanceKlass com/android/tools/r8/utils/AndroidApp$Builder
+instanceKlass com/android/tools/r8/utils/AndroidApp
+instanceKlass com/android/tools/r8/utils/Reporter
+instanceKlass com/android/tools/r8/InternalProgramOutputPathConsumer
+instanceKlass com/android/tools/r8/DataResourceConsumer
+instanceKlass com/android/tools/r8/ProgramConsumer
+instanceKlass com/android/tools/r8/BaseCommand$Builder
+instanceKlass com/android/tools/r8/Diagnostic
+instanceKlass com/android/tools/r8/BaseCompilerCommandParser
+instanceKlass com/android/tools/r8/BaseCommand
+instanceKlass com/android/tools/r8/origin/Origin
+instanceKlass sun/nio/fs/WindowsUriSupport
+instanceKlass com/android/builder/dexing/JarClassFileInput$$Lambda$467
+instanceKlass com/android/builder/dexing/ClassFileInput$$Lambda$466
+instanceKlass com/android/builder/dexing/ClassFileEntry
+instanceKlass com/android/builder/dexing/JarClassFileInput
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/builder/dexing/ClassFileInput
+instanceKlass com/android/builder/dexing/ClassFileInputs
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$465
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$464
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/builder/dexing/D8DiagnosticsHandler
+instanceKlass com/android/tools/r8/DiagnosticsHandler
+instanceKlass com/android/builder/dexing/DexArchiveBuilder
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$1
+instanceKlass com/android/ide/common/process/BaseProcessOutputHandler$BaseProcessOutput
+instanceKlass com/android/ide/common/blame/parser/DexParser
+instanceKlass com/android/ide/common/blame/parser/ToolOutputParser
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderCacheHandler$CacheableItem
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$463
+instanceKlass com/android/builder/core/SerializableMessageReceiver
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$DexConversionParameters
+instanceKlass com/android/builder/utils/FileCache$$Lambda$462
+instanceKlass com/google/common/base/Joiner$MapJoiner
+instanceKlass com/android/builder/utils/FileCache$$Lambda$461
+instanceKlass com/android/builder/utils/FileCache$QueryResult
+instanceKlass com/android/builder/utils/FileCache$Inputs
+instanceKlass com/android/builder/utils/FileCache$1$$Lambda$460
+instanceKlass com/android/builder/utils/FileCache$2
+instanceKlass com/android/builder/utils/FileCache$Inputs$Builder
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$D8DesugaringCacheInfo
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$459
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$ClasspathService
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$458
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$ClasspathServiceKey
+instanceKlass com/android/builder/dexing/r8/ClassFileProviderFactory$OrderedClassFileResourceProvider$$Lambda$457
+instanceKlass com/android/builder/dexing/r8/ClassFileProviderFactory$OrderedClassFileResourceProvider
+instanceKlass com/android/tools/r8/ClassFileResourceProvider
+instanceKlass com/android/builder/dexing/r8/ClassFileProviderFactory
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$456
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransform$$Lambda$455
+instanceKlass java/util/Vector$Itr
+instanceKlass java/util/zip/ZipOutputStream$XEntry
+instanceKlass com/android/build/gradle/tasks/PreColdSwapTask$1
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$$Lambda$454
+instanceKlass org/objectweb/asm/tree/TryCatchBlockNode
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$$Lambda$453
+instanceKlass com/android/build/gradle/internal/incremental/StringSwitch$$Lambda$452
+instanceKlass com/android/build/gradle/internal/incremental/StringSwitch$$Lambda$451
+instanceKlass com/android/build/gradle/internal/incremental/StringSwitch$$Lambda$450
+instanceKlass com/android/build/gradle/internal/incremental/StringSwitch
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$$Lambda$449
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$$Lambda$448
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$$Lambda$447
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$MethodReference
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$$Lambda$446
+instanceKlass org/objectweb/asm/Edge
+instanceKlass com/android/build/gradle/internal/incremental/Constructor
+instanceKlass com/android/build/gradle/internal/incremental/LocalVariable
+instanceKlass org/objectweb/asm/tree/analysis/Subroutine
+instanceKlass org/objectweb/asm/tree/analysis/Frame
+instanceKlass org/objectweb/asm/tree/analysis/Analyzer
+instanceKlass org/objectweb/asm/tree/analysis/BasicValue
+instanceKlass org/objectweb/asm/tree/analysis/Value
+instanceKlass org/objectweb/asm/tree/analysis/Interpreter
+instanceKlass com/android/build/gradle/internal/incremental/ConstructorBuilder
+instanceKlass org/objectweb/asm/util/Printer
+instanceKlass com/android/build/gradle/internal/incremental/ByteCodeUtils
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$AsMap$AsMapIterator
+instanceKlass org/objectweb/asm/commons/Method
+instanceKlass com/google/common/collect/Multimaps
+instanceKlass com/google/common/collect/MultimapBuilder$ArrayListSupplier
+instanceKlass com/google/common/collect/MultimapBuilder$MultimapBuilderWithKeys
+instanceKlass com/google/common/collect/MultimapBuilder
+instanceKlass com/google/common/collect/ImmutableMultimap$Builder
+instanceKlass com/android/build/gradle/internal/incremental/InstantRunMethodVerifier
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalVisitor$$Lambda$445
+instanceKlass org/objectweb/asm/Frame
+instanceKlass org/objectweb/asm/commons/SerialVersionUIDAdder$Item
+instanceKlass com/android/build/gradle/internal/incremental/AsmAbstractNode
+instanceKlass com/android/build/gradle/internal/incremental/AsmUtils$DirectoryBasedClassReader
+instanceKlass org/objectweb/asm/tree/LocalVariableNode
+instanceKlass org/objectweb/asm/Label
+instanceKlass org/objectweb/asm/tree/InsnList
+instanceKlass org/objectweb/asm/tree/InnerClassNode
+instanceKlass org/objectweb/asm/Context
+instanceKlass org/objectweb/asm/Attribute
+instanceKlass com/android/build/gradle/internal/incremental/AsmUtils$$Lambda$444
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/build/gradle/internal/incremental/AsmUtils
+instanceKlass org/objectweb/asm/Item
+instanceKlass org/objectweb/asm/ByteVector
+instanceKlass org/objectweb/asm/FieldVisitor
+instanceKlass org/objectweb/asm/AnnotationVisitor
+instanceKlass org/objectweb/asm/ModuleVisitor
+instanceKlass org/objectweb/asm/ClassReader
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalSupportVisitor$VisitorBuilder
+instanceKlass org/objectweb/asm/Type
+instanceKlass com/android/build/gradle/internal/incremental/Redirection
+instanceKlass org/objectweb/asm/tree/AbstractInsnNode
+instanceKlass org/objectweb/asm/Opcodes
+instanceKlass org/objectweb/asm/MethodVisitor
+instanceKlass com/android/build/gradle/internal/incremental/IncrementalVisitor$VisitorBuilder
+instanceKlass com/android/build/gradle/internal/incremental/AsmUtils$ClassNodeProvider
+instanceKlass org/objectweb/asm/ClassVisitor
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunTransform$$Lambda$443
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunTransform$$Lambda$442
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunTransform$$Lambda$441
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunTransform$WorkItem
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunTransform$$Lambda$440
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$getAction$3
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$getAction$2
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions$getAction$1
+instanceKlass com/android/builder/merge/MergeOutputWriters$2
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$439
+instanceKlass com/google/common/collect/ImmutableList$SerializedForm
+instanceKlass com/google/common/collect/ImmutableMap$SerializedForm
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$438
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$437
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$436
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$435
+instanceKlass com/android/utils/ImmutableCollectors$$Lambda$434
+instanceKlass com/android/utils/ImmutableCollectors
+instanceKlass com/android/builder/merge/RenameIncrementalFileMergerInput$$Lambda$433
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$432
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$431
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$430
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$429
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$428
+instanceKlass java/util/Vector$1
+instanceKlass sun/nio/cs/UTF_8$1
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$427
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$426
+instanceKlass com/android/builder/merge/IncrementalFileMerger$$Lambda$425
+instanceKlass com/android/builder/merge/IncrementalFileMergerState$Builder
+instanceKlass com/android/builder/merge/IncrementalFileMerger
+instanceKlass com/android/builder/merge/DelegateIncrementalFileMergerOutput
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$424
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs$1
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutputs
+instanceKlass com/android/builder/merge/MergeOutputWriters$1
+instanceKlass com/android/builder/merge/MergeOutputWriter
+instanceKlass com/android/builder/merge/MergeOutputWriters
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms$$Lambda$423
+instanceKlass com/android/builder/merge/StreamMergeAlgorithms
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$422
+instanceKlass com/android/builder/merge/StreamMergeAlgorithm
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$421
+instanceKlass java/util/function/Predicate$$Lambda$420
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$419
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$418
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$417
+instanceKlass com/android/builder/merge/DelegateIncrementalFileMergerInput
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$416
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$415
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$414
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$413
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput$$Lambda$412
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInput
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$411
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs$$Lambda$410
+instanceKlass com/android/builder/merge/LazyIncrementalFileMergerInputs
+instanceKlass com/android/build/gradle/internal/pipeline/IncrementalFileMergerTransformUtils$$Lambda$409
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable$$Lambda$408
+instanceKlass com/android/build/gradle/internal/pipeline/IncrementalFileMergerTransformUtils$$Lambda$407
+instanceKlass com/android/build/gradle/internal/pipeline/IncrementalFileMergerTransformUtils
+instanceKlass com/android/builder/merge/IncrementalFileMergerState
+instanceKlass sun/nio/fs/WindowsFileSystem$2
+instanceKlass sun/nio/fs/Globs
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithPrefixPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithPrefixPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithPrefixPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithSuffixPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithSuffixPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FileNameWithSuffixPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/FileExtensionWithPrefixPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FileExtensionWithPrefixPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FileExtensionWithPrefixPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/FolderInHierarchyPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/FolderInHierarchyPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/FolderInHierarchyPathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/NoWildcardPathMatcher$Companion$factory$1
+instanceKlass com/android/build/gradle/internal/matcher/NoWildcardPathMatcher$Companion
+instanceKlass com/android/build/gradle/internal/matcher/NoWildcardPathMatcher
+instanceKlass java/nio/file/PathMatcher
+instanceKlass com/android/build/gradle/internal/matcher/GlobPathMatcherFactory$Companion
+instanceKlass com/android/build/gradle/internal/matcher/GlobPathMatcherFactory
+instanceKlass com/android/build/gradle/internal/packaging/ParsedPackagingOptions
+instanceKlass com/android/build/gradle/internal/dependency/AarTransform$$Lambda$406
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$405
+instanceKlass org/gradle/api/internal/file/collections/SingletonFileTree
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$404
+instanceKlass com/android/build/api/transform/DirectoryInput
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$403
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$402
+instanceKlass com/android/build/gradle/internal/pipeline/QualifiedContentImpl
+instanceKlass com/android/build/api/transform/JarInput
+instanceKlass com/android/build/gradle/internal/pipeline/OriginalStream$$Lambda$401
+instanceKlass org/gradle/api/internal/tasks/CacheableTaskOutputCompositeFilePropertyElementSpec
+instanceKlass com/android/build/gradle/internal/pipeline/TransformInvocationBuilder$1
+instanceKlass com/android/build/gradle/internal/pipeline/TransformOutputProviderImpl
+instanceKlass com/android/build/gradle/internal/pipeline/IntermediateFolderUtils$$Lambda$400
+instanceKlass com/android/build/gradle/internal/pipeline/IntermediateFolderUtils$$Lambda$399
+instanceKlass com/android/build/gradle/internal/pipeline/SubStream
+instanceKlass com/android/build/gradle/internal/pipeline/IntermediateFolderUtils
+instanceKlass com/android/build/api/transform/TransformInvocation
+instanceKlass com/android/build/gradle/internal/pipeline/TransformInvocationBuilder
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$2
+instanceKlass com/google/protobuf/UnknownFieldSet$Builder
+instanceKlass com/android/build/gradle/internal/pipeline/ImmutableTransformInput
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$398
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$1
+instanceKlass com/android/tools/build/gradle/internal/profile/GradleTransformExecutionType$1
+instanceKlass com/android/ide/common/util/ReferenceHolder
+instanceKlass com/android/build/gradle/tasks/InstantRunResourcesApkBuilder$$Lambda$397
+instanceKlass com/android/builder/utils/SynchronizedFile$$Lambda$396
+instanceKlass com/android/builder/utils/ExceptionFunction
+instanceKlass com/android/build/gradle/internal/tasks/ValidateSigningTask$createDefaultDebugKeystoreIfNeeded$1
+instanceKlass com/android/builder/utils/ExceptionConsumer
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$$Lambda$395
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$$Lambda$394
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$$Lambda$393
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$$Lambda$392
+instanceKlass com/android/utils/JvmWideVariable$$Lambda$391
+instanceKlass com/android/utils/JvmWideVariable$$Lambda$390
+instanceKlass com/android/utils/JvmWideVariable$$Lambda$389
+instanceKlass com/google/common/reflect/Types$ClassOwnership$1LocalClass
+instanceKlass com/google/common/reflect/Types$ParameterizedTypeImpl
+instanceKlass com/google/common/reflect/Reflection
+instanceKlass com/google/common/reflect/Types$TypeVariableInvocationHandler
+instanceKlass com/google/common/reflect/Types$TypeVariableImpl
+instanceKlass com/google/common/reflect/Types$1
+instanceKlass com/google/common/reflect/Types
+instanceKlass com/google/common/reflect/Types$NativeTypeVariableEquals
+instanceKlass com/google/common/reflect/TypeResolver$TypeVariableKey
+instanceKlass com/google/common/reflect/TypeResolver$TypeTable
+instanceKlass com/google/common/reflect/TypeResolver
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$$Lambda$388
+instanceKlass sun/nio/fs/WindowsLinkSupport
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$WriteLock
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$ReadLock
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock$Lock
+instanceKlass com/android/utils/concurrency/ReadWriteProcessLock
+instanceKlass com/android/builder/utils/SynchronizedFile
+instanceKlass com/android/build/gradle/internal/tasks/KnownFilesSaveData$$Lambda$387
+instanceKlass sun/misc/JavaxCryptoSealedObjectAccess
+instanceKlass sun/misc/JavaNetHttpCookieAccess
+instanceKlass sun/misc/JavaAWTAccess
+instanceKlass sun/misc/JavaIOAccess
+instanceKlass com/google/common/base/Throwables
+instanceKlass com/android/build/gradle/internal/tasks/KnownFilesSaveData
+instanceKlass org/apache/commons/codec/binary/BaseNCodec$Context
+instanceKlass org/apache/commons/codec/binary/BaseNCodec
+instanceKlass org/apache/commons/codec/BinaryDecoder
+instanceKlass org/apache/commons/codec/Decoder
+instanceKlass org/apache/commons/codec/BinaryEncoder
+instanceKlass org/apache/commons/codec/Encoder
+instanceKlass com/google/common/hash/Hashing$Sha1Holder
+instanceKlass java/util/stream/Sink$ChainedInt
+instanceKlass java/util/stream/Sink$OfInt
+instanceKlass java/util/function/IntConsumer
+instanceKlass java/util/stream/StreamSpliterators$WrappingSpliterator$$Lambda$386
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$385
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$384
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$383
+instanceKlass java/util/stream/Streams$2
+instanceKlass java/util/stream/Streams
+instanceKlass java/util/stream/Streams$ConcatSpliterator
+instanceKlass java/util/stream/Streams$RangeIntSpliterator
+instanceKlass java/util/stream/StreamSpliterators$AbstractWrappingSpliterator
+instanceKlass java/util/stream/AbstractPipeline$$Lambda$382
+instanceKlass com/google/common/collect/CollectSpliterators$1WithCharacteristics
+instanceKlass com/google/common/collect/CollectSpliterators
+instanceKlass com/google/common/collect/ImmutableSet$Indexed$$Lambda$381
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$380
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$379
+instanceKlass com/android/tools/build/apkzlib/zip/Eocd$$Lambda$378
+instanceKlass com/android/tools/build/apkzlib/bytestorage/SwitchableDelegateCloseableByteSource$$Lambda$377
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ChunkBasedCloseableByteSource$$Lambda$376
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField$AlignmentSegment
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$375
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$374
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$373
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$372
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField$Segment
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$371
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$370
+instanceKlass com/google/common/util/concurrent/Futures$CallbackListener
+instanceKlass com/android/tools/build/apkzlib/zip/CompressionResult
+instanceKlass java/util/zip/Deflater
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$2
+instanceKlass java/lang/invoke/LambdaForm$MH
+instanceKlass com/android/tools/build/apkzlib/zip/compress/ExecutorCompressor$$Lambda$369
+instanceKlass com/android/tools/build/apkzlib/sign/ManifestGenerationExtension$1$$Lambda$368
+instanceKlass com/android/build/gradle/internal/incremental/InstantRunBuildContext$Artifact
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$367
+instanceKlass com/google/common/primitives/UnsignedInts
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$366
+instanceKlass java/util/TreeMap$NavigableSubMap$SubMapIterator
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMap$1
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$3
+instanceKlass java/util/function/Predicate$$Lambda$365
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$364
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$363
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$362
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdates
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$361
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$360
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$359
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$358
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$357
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$356
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$355
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager$$Lambda$354
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$353
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$352
+instanceKlass com/android/builder/internal/packaging/PackagedFileUpdate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$351
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$Bucket
+instanceKlass com/android/builder/internal/packaging/DexFileNameSupplier
+instanceKlass java/util/stream/SortedOps$RefSortingSink$$Lambda$350
+instanceKlass java/util/stream/Collectors$$Lambda$349
+instanceKlass java/util/stream/Collectors$$Lambda$348
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$347
+instanceKlass java/util/Comparator$$Lambda$346
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$DexNameComparator
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$345
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$344
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager$$Lambda$343
+instanceKlass com/android/builder/files/NativeLibraryAbiPredicate
+instanceKlass com/android/builder/internal/packaging/DexIncrementalRenameManager
+instanceKlass com/google/common/collect/Lists$ReverseList$1
+instanceKlass com/android/tools/build/apkzlib/sign/ManifestGenerationExtension$$Lambda$342
+instanceKlass com/android/tools/build/apkzlib/sign/ManifestGenerationExtension
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules$$Lambda$341
+instanceKlass com/android/tools/build/apkzlib/zfile/ZFiles
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreator$1
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules$$Lambda$340
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreator
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreator
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkZFileCreatorFactory
+instanceKlass com/android/tools/build/apkzlib/zip/utils/ByteTracker
+instanceKlass com/android/build/gradle/AndroidGradleOptions
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory
+instanceKlass com/android/build/gradle/internal/packaging/ApkCreatorFactories
+instanceKlass com/android/builder/internal/packaging/IncrementalPackager
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreatorFactory$CreationData
+instanceKlass com/android/builder/packaging/PackagingUtils$$Lambda$339
+instanceKlass com/android/build/gradle/internal/packaging/IncrementalPackagerBuilder
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$338
+instanceKlass com/google/common/base/Predicates$CompositionPredicate
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$$Lambda$337
+instanceKlass com/google/common/base/Predicates$InPredicate
+instanceKlass com/google/common/base/Predicates
+instanceKlass com/android/builder/files/IncrementalRelativeFileSets$$Lambda$336
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$335
+instanceKlass com/google/common/io/ByteArrayDataOutput
+instanceKlass com/google/common/io/ByteArrayDataInput
+instanceKlass com/google/common/io/ByteStreams
+instanceKlass com/google/common/hash/Funnel
+instanceKlass com/google/common/hash/Funnels
+instanceKlass com/android/tools/build/apkzlib/utils/CachedFileContents
+instanceKlass java/nio/file/SecureDirectoryStream
+instanceKlass com/google/common/io/MoreFiles
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$334
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$333
+instanceKlass com/android/builder/files/RelativeFile
+instanceKlass com/android/tools/build/apkzlib/zip/ZFile$$Lambda$332
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionFunction
+instanceKlass com/android/tools/build/apkzlib/utils/IOExceptionRunnable
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileExtension
+instanceKlass com/android/tools/build/apkzlib/zip/ProcessedAndRawByteSources
+instanceKlass com/google/common/io/CharSource
+instanceKlass com/android/tools/build/apkzlib/zip/StoredEntry$$Lambda$331
+instanceKlass com/android/tools/build/apkzlib/zip/StoredEntry
+instanceKlass com/android/tools/build/apkzlib/zip/ExtraField
+instanceKlass com/android/tools/build/apkzlib/zip/utils/MsDosDateTimeUtils
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectoryHeader
+instanceKlass com/google/common/util/concurrent/Futures$3
+instanceKlass com/google/common/util/concurrent/CheckedFuture
+instanceKlass com/google/common/util/concurrent/AsyncFunction
+instanceKlass com/google/common/util/concurrent/GwtFuturesCatchingSpecialization
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectoryHeaderCompressInfo
+instanceKlass com/android/tools/build/apkzlib/zip/EncodeUtils
+instanceKlass com/android/tools/build/apkzlib/zip/GPFlags
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectory$$Lambda$330
+instanceKlass com/android/tools/build/apkzlib/zip/CentralDirectory
+instanceKlass com/android/tools/build/apkzlib/zip/Eocd$$Lambda$329
+instanceKlass com/android/tools/build/apkzlib/utils/CachedSupplier
+instanceKlass com/android/tools/build/apkzlib/zip/utils/LittleEndianUtils
+instanceKlass com/android/tools/build/apkzlib/zip/ZipFieldInvariantMaxValue
+instanceKlass com/android/tools/build/apkzlib/zip/ZipFieldInvariantNonNegative
+instanceKlass com/android/tools/build/apkzlib/zip/ZipFieldInvariant
+instanceKlass com/android/tools/build/apkzlib/zip/ZipField
+instanceKlass com/android/tools/build/apkzlib/zip/Eocd
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLogs$1
+instanceKlass com/android/tools/build/apkzlib/bytestorage/LruTracker
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectory$1
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryFile
+instanceKlass java/nio/file/TempFileHelper
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectoryStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/InMemoryByteStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/OverflowToDiskByteStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ChunkBasedByteStorage
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMapEntry$$Lambda$328
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMapEntry$$Lambda$327
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMapEntry
+instanceKlass com/android/tools/build/apkzlib/zip/FileUseMap
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$326
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLog
+instanceKlass com/android/tools/build/apkzlib/zip/VerifyLogs
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules$$Lambda$325
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRules
+instanceKlass com/android/tools/build/apkzlib/zip/AlignmentRule
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$324
+instanceKlass com/android/tools/build/apkzlib/zip/compress/ExecutorCompressor
+instanceKlass com/android/tools/build/apkzlib/zip/ZFileOptions$$Lambda$323
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectoryFactory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/TemporaryDirectory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/OverflowToDiskByteStorageFactory
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ByteStorage
+instanceKlass com/android/tools/build/apkzlib/bytestorage/ChunkBasedByteStorageFactory
